@@ -1,0 +1,19 @@
+[26/04/2016 - 10:57][Metodo ServidorService]***INICIO***
+[26/04/2016 - 10:58][Metodo connect - ServidorService]INICIO
+[26/04/2016 - 10:58][Metodo connect - ServidorService]Primeiro cliente a se conectar no servidor
+[26/04/2016 - 10:58][Metodo connect - ServidorService]tpCrypt : 2
+[26/04/2016 - 10:58][Metodo connect - ServidorService]Passou dentro do if tp==2, mapOnlines ==0. ChaveDES : com.sun.crypto.provider.DESKey@fffe7b71
+[26/04/2016 - 10:58][ServidorService - Metodo send]***FIM***
+[26/04/2016 - 10:58][ServidorService - Metodo send]***FIM***
+[26/04/2016 - 10:58][Metodo connect - ServidorService]MapOnlines = 0
+[26/04/2016 - 10:58][Metodo connect - ServidorService]---FIM Maponlines -----
+[26/04/2016 - 10:58][ServidorService - Metodo sendOnlines]***INICIO****
+[26/04/2016 - 10:58][ServidorService - Metodo sendOnlines]***INICIO****
+[26/04/2016 - 11:08][ServidorService - Metodo disconnect]INICIO
+[26/04/2016 - 11:08][ServidorService - Metodo sendAll]***INICIO***
+[26/04/2016 - 11:08][Metodo sendAll - ServidorService]***FIM***
+[26/04/2016 - 11:08][ServidorService - Metodo disconnect]O usurário Administrador sai da sala
+[26/04/2016 - 11:08][ServidorService - Metodo disconnect]***FIM**
+[26/04/2016 - 11:08][ServidorService - Metodo sendOnlines]***INICIO****
+[26/04/2016 - 11:08][ServidorService - Metodo sendOnlines]***INICIO****
+

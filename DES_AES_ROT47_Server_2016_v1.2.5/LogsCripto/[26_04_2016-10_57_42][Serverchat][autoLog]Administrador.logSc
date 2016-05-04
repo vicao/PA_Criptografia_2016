@@ -1,0 +1,64 @@
+[26/04/2016 - 10:58][Metodo connect - ServidorService]INICIO
+
+[26/04/2016 - 10:58][Metodo connect - ServidorService]Chave : com.sun.crypto.provider.DESKey@fffe7b71
+
+[26/04/2016 - 10:58][ServidorService - Metodo send]***INICIO***
+
+[26/04/2016 - 10:58:20][ClienteInterface - Metodo Connected]***Inicio****
+[26/04/2016 - 10:58:20][ClienteInterface - Metodo Connected][Administrador]Chave DES gerada : javax.crypto.spec.SecretKeySpec@fffe7b71
+[26/04/2016 - 10:58:20][ClienteInterface - Metodo Connected][Administrador]isIsGenaratedKey : true
+[26/04/2016 - 10:58:20][ClienteInterface - Metodo Connected][Administrador][TpCrypt] 2
+[26/04/2016 - 10:58:20][ClienteInterface - Metodo Connected][Administrador][TpCrypt] 2
+[26/04/2016 - 10:58:20][ClienteInterface - Metodo Connected][Chave DES] : null
+[26/04/2016 - 10:58][ServidorService - Metodo send]***FIM***
+
+[26/04/2016 - 10:58][ServidorService - Metodo sendOnlines]***INICIO****
+
+[26/04/2016 - 10:58][ServidorService - Metodo sendOnlines]***FIM****
+
+[26/04/2016 - 10:58:23][ClienteInterface - Metodo Connected][Administrador]Você está conectado no chat!
+[26/04/2016 - 10:58:23][ClienteInterface - Metodo Connected]***FIM****
+[26/04/2016 - 10:58:23][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[26/04/2016 - 10:58:23][ClienteInterface - Metodo refreshOnlines]Usuario : Administrador
+[26/04/2016 - 10:58:23][ClienteInterface - Metodo refreshOnlines]Usuarios : [Administrador]
+[26/04/2016 - 10:58:23][ClienteInterface - Metodo refreshOnlines]***FIM***
+[26/04/2016 - 11:08:43][ClienteInterface - Metodo Disconnected[DES]]***Inicio****
+[26/04/2016 - 11:08:43][ClienteInterface - Metodo Disconnected[DES]][Administrador]Texto : null
+[26/04/2016 - 11:08:43][ClienteInterface - Metodo Disconnected[DES]][Administrador]***FIM***
+[26/04/2016 - 11:08][ServidorService - Metodo disconnect]INICIO
+
+[26/04/2016 - 11:08][ServidorService - Metodo sendAll]***INICIO***
+
+[26/04/2016 - 11:08][ServidorService - Metodo sendAll]***FIM***
+
+[26/04/2016 - 11:08][ServidorService - Metodo disconnect]O usurário Administrador sai da sala
+
+[26/04/2016 - 11:08][ServidorService - Metodo disconnect]***FIM**
+
+[26/04/2016 - 11:08][ServidorService - Metodo sendOnlines]***INICIO****
+
+[26/04/2016 - 11:08][ServidorService - Metodo sendOnlines]***FIM****
+
+[26/04/2016 - 11:08:44][ClienteInterface - Metodo formWindowClosed]INICIO
+[26/04/2016 - 11:08:44][ClienteInterface - Metodo formWindowClosed]FIM ELSE
+[26/04/2016 - 11:08][EscreveLog][Auto]Arquivo de log não localizado,arquivo criado
+
+[26/04/2016 - 10:57][Metodo ServidorService]***INICIO***
+[26/04/2016 - 10:58][Metodo connect - ServidorService]INICIO
+[26/04/2016 - 10:58][Metodo connect - ServidorService]Primeiro cliente a se conectar no servidor
+[26/04/2016 - 10:58][Metodo connect - ServidorService]tpCrypt : 2
+[26/04/2016 - 10:58][Metodo connect - ServidorService]Passou dentro do if tp==2, mapOnlines ==0. ChaveDES : com.sun.crypto.provider.DESKey@fffe7b71
+[26/04/2016 - 10:58][ServidorService - Metodo send]***FIM***
+[26/04/2016 - 10:58][ServidorService - Metodo send]***FIM***
+[26/04/2016 - 10:58][Metodo connect - ServidorService]MapOnlines = 0
+[26/04/2016 - 10:58][Metodo connect - ServidorService]---FIM Maponlines -----
+[26/04/2016 - 10:58][ServidorService - Metodo sendOnlines]***INICIO****
+[26/04/2016 - 10:58][ServidorService - Metodo sendOnlines]***INICIO****
+[26/04/2016 - 11:08][ServidorService - Metodo disconnect]INICIO
+[26/04/2016 - 11:08][ServidorService - Metodo sendAll]***INICIO***
+[26/04/2016 - 11:08][Metodo sendAll - ServidorService]***FIM***
+[26/04/2016 - 11:08][ServidorService - Metodo disconnect]O usurário Administrador sai da sala
+[26/04/2016 - 11:08][ServidorService - Metodo disconnect]***FIM**
+[26/04/2016 - 11:08][ServidorService - Metodo sendOnlines]***INICIO****
+[26/04/2016 - 11:08][ServidorService - Metodo sendOnlines]***INICIO****
+
