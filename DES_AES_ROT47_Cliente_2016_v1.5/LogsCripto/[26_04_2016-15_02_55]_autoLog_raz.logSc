@@ -1,0 +1,52 @@
+[26/04/2016 - 15:04:04][ClienteInterface - Metodo Connected]***Inicio****
+[26/04/2016 - 15:04:04][ClienteInterface - Metodo Connected][raz]Chave DES gerada : javax.crypto.spec.SecretKeySpec@fffe78d0
+[26/04/2016 - 15:04:04][ClienteInterface - Metodo Connected][raz]isIsGenaratedKey : true
+[26/04/2016 - 15:04:04][ClienteInterface - Metodo Connected][raz][TpCrypt] 2
+[26/04/2016 - 15:04:04][ClienteInterface - Metodo Connected][raz][TpCrypt] 2
+[26/04/2016 - 15:04:04][ClienteInterface - Metodo Connected][Chave DES] : javax.crypto.spec.SecretKeySpec@fffe78d0
+[26/04/2016 - 15:04:06][ClienteInterface - Metodo Connected][raz]Você está conectado no chat!
+[26/04/2016 - 15:04:06][ClienteInterface - Metodo Connected]***FIM****
+[26/04/2016 - 15:04:06][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[26/04/2016 - 15:04:06][ClienteInterface - Metodo refreshOnlines]Usuario : raz
+[26/04/2016 - 15:04:06][ClienteInterface - Metodo refreshOnlines]Usuarios : [raz]
+[26/04/2016 - 15:04:06][ClienteInterface - Metodo refreshOnlines]***FIM***
+[26/04/2016 - 15:04:25][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[26/04/2016 - 15:04:25][ClienteInterface - Metodo refreshOnlines]Usuario : raz
+[26/04/2016 - 15:04:25][ClienteInterface - Metodo refreshOnlines]Usuarios : [lopper, raz]
+[26/04/2016 - 15:04:25][ClienteInterface - Metodo refreshOnlines]***FIM***
+[26/04/2016 - 15:04:32][ClienteInterface - Metodo btnEnviar[TpCrypt]]tpCrypt : 2
+[26/04/2016 - 15:04:32][ClienteInterface - Metodo btnEnviar[TpCrypt]]this.tpCrypt : 2
+[26/04/2016 - 15:04:32][ClienteInterface - Metodo btnEnviar][raz]isConnected : true
+[26/04/2016 - 15:04:32][ClienteInterface - Metodo criptografar] Texto : oi
+[26/04/2016 - 15:04:32][ClienteInterface - Metodo criptografar[DES]][raz]Texto Claro : oi
+[26/04/2016 - 15:04:32][ClienteInterface - Metodo criptografar[DES]][raz]ChavesDES : javax.crypto.spec.SecretKeySpec@fffe78d0
+Texto Claro : oi
+Texto Encriptado : [B@18327bd
+[26/04/2016 - 15:04:33][ClienteInterface - Metodo criptografar[DES]] aux : [B@18327bd
+|*******************************************|
+[26/04/2016 - 15:04:33][[btnEnviarActionPerformed]]ChaveDES : javax.crypto.spec.SecretKeySpec@fffe78d0
+[26/04/2016 - 15:04:33][[btnEnviarActionPerformed]][message]ChaveDES : null
+[26/04/2016 - 15:04:33][[btnEnviarActionPerformed]]TextoClaro : oi
+[26/04/2016 - 15:04:33][[btnEnviarActionPerformed]]Textocriptofrado : [B@18327bd
+[26/04/2016 - 15:02:55][Exception]descriptar : Given final block not properly padded
+[26/04/2016 - 15:04:33][[btnEnviarActionPerformed]]TextoDescriptografado : 
+|*******************************************|
+[26/04/2016 - 15:04:38][ClienteInterface - Metodo receive]****INICIO***
+[26/04/2016 - 15:04:38][ClienteInterface - Metodo receive][raz][TpCrypt] 2
+[26/04/2016 - 15:02:55][Exception]descriptar : Given final block not properly padded
+[26/04/2016 - 15:04:38][ClienteInterface - Metodo receive[DES]]Resultado : 
+[26/04/2016 - 15:04:38][ClienteInterface - Metodo receive[DES]]Resultado[toString] : 
+[26/04/2016 - 15:04:38][ClienteInterface - Metodo receive]****FIM***
+[26/04/2016 - 15:04:41][ClienteInterface - Metodo receive]****INICIO***
+[26/04/2016 - 15:04:41][ClienteInterface - Metodo receive][raz][TpCrypt] 0
+[26/04/2016 - 15:04:41][ClienteInterface - Metodo receive[noCrypt]][lopper] até logo!
+[26/04/2016 - 15:04:41][ClienteInterface - Metodo receive]****FIM***
+[26/04/2016 - 15:04:41][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[26/04/2016 - 15:04:41][ClienteInterface - Metodo refreshOnlines]Usuario : raz
+[26/04/2016 - 15:04:41][ClienteInterface - Metodo refreshOnlines]Usuarios : [raz]
+[26/04/2016 - 15:04:41][ClienteInterface - Metodo refreshOnlines]***FIM***
+[26/04/2016 - 15:04:44][ClienteInterface - Metodo Disconnected[DES]]***Inicio****
+[26/04/2016 - 15:04:44][ClienteInterface - Metodo Disconnected[DES]][raz]Texto : [B@18327bd
+[26/04/2016 - 15:04:44][ClienteInterface - Metodo Disconnected[DES]][raz]***FIM***
+[26/04/2016 - 15:04:47][ClienteInterface - Metodo formWindowClosed]INICIO
+[26/04/2016 - 15:04:47][ClienteInterface - Metodo formWindowClosed]FIM ELSE

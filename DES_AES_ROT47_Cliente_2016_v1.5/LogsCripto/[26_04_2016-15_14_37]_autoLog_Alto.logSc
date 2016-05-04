@@ -1,0 +1,51 @@
+[26/04/2016 - 15:14:58][ClienteInterface - Metodo Connected]***Inicio****
+[26/04/2016 - 15:14:58][ClienteInterface - Metodo Connected][Alto]Chave DES gerada : javax.crypto.spec.SecretKeySpec@fffe7d49
+[26/04/2016 - 15:14:58][ClienteInterface - Metodo Connected][Alto]isIsGenaratedKey : true
+[26/04/2016 - 15:14:58][ClienteInterface - Metodo Connected][Alto][TpCrypt] 2
+[26/04/2016 - 15:14:58][ClienteInterface - Metodo Connected][Alto][TpCrypt] 2
+[26/04/2016 - 15:14:58][ClienteInterface - Metodo Connected][Chave DES] : javax.crypto.spec.SecretKeySpec@fffe7d49
+[26/04/2016 - 15:15:00][ClienteInterface - Metodo Connected][Alto]Você está conectado no chat!
+[26/04/2016 - 15:15:00][ClienteInterface - Metodo Connected]***FIM****
+[26/04/2016 - 15:15:00][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[26/04/2016 - 15:15:00][ClienteInterface - Metodo refreshOnlines]Usuario : Alto
+[26/04/2016 - 15:15:00][ClienteInterface - Metodo refreshOnlines]Usuarios : [Alto]
+[26/04/2016 - 15:15:00][ClienteInterface - Metodo refreshOnlines]***FIM***
+[26/04/2016 - 15:15:11][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[26/04/2016 - 15:15:11][ClienteInterface - Metodo refreshOnlines]Usuario : Alto
+[26/04/2016 - 15:15:11][ClienteInterface - Metodo refreshOnlines]Usuarios : [RATS, Alto]
+[26/04/2016 - 15:15:11][ClienteInterface - Metodo refreshOnlines]***FIM***
+[26/04/2016 - 15:15:16][ClienteInterface - Metodo btnEnviar[TpCrypt]]tpCrypt : 2
+[26/04/2016 - 15:15:16][ClienteInterface - Metodo btnEnviar[TpCrypt]]this.tpCrypt : 2
+[26/04/2016 - 15:15:16][ClienteInterface - Metodo btnEnviar][Alto]isConnected : true
+[26/04/2016 - 15:15:16][ClienteInterface - Metodo criptografar] Texto : oi
+[26/04/2016 - 15:15:16][ClienteInterface - Metodo criptografar[DES]][Alto]Texto Claro : oi
+[26/04/2016 - 15:15:16][ClienteInterface - Metodo criptografar[DES]][Alto]ChavesDES : javax.crypto.spec.SecretKeySpec@fffe7d49
+Texto Claro : oi
+Texto Encriptado : [B@1c8101a
+[26/04/2016 - 15:15:16][ClienteInterface - Metodo criptografar[DES]] aux : [B@1c8101a
+|*******************************************|
+[26/04/2016 - 15:15:16][[btnEnviarActionPerformed]]ChaveDES : javax.crypto.spec.SecretKeySpec@fffe7d49
+[26/04/2016 - 15:15:16][[btnEnviarActionPerformed]][message]ChaveDES : null
+[26/04/2016 - 15:15:16][[btnEnviarActionPerformed]]TextoClaro : oi
+[26/04/2016 - 15:15:16][[btnEnviarActionPerformed]]Textocriptofrado : [B@1c8101a
+[26/04/2016 - 15:14:37][Exception]descriptar : Given final block not properly padded
+[26/04/2016 - 15:15:16][[btnEnviarActionPerformed]]TextoDescriptografado : 
+|*******************************************|
+[26/04/2016 - 15:15:21][ClienteInterface - Metodo receive]****INICIO***
+[26/04/2016 - 15:15:21][ClienteInterface - Metodo receive][Alto][TpCrypt] 2
+[26/04/2016 - 15:15:21][ClienteInterface - Metodo receive[DES]]Resultado : ola
+[26/04/2016 - 15:15:21][ClienteInterface - Metodo receive[DES]]Resultado[toString] : ola
+[26/04/2016 - 15:15:21][ClienteInterface - Metodo receive]****FIM***
+[26/04/2016 - 15:15:27][ClienteInterface - Metodo receive]****INICIO***
+[26/04/2016 - 15:15:27][ClienteInterface - Metodo receive][Alto][TpCrypt] 0
+[26/04/2016 - 15:15:27][ClienteInterface - Metodo receive[noCrypt]][RATS] até logo!
+[26/04/2016 - 15:15:27][ClienteInterface - Metodo receive]****FIM***
+[26/04/2016 - 15:15:27][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[26/04/2016 - 15:15:27][ClienteInterface - Metodo refreshOnlines]Usuario : Alto
+[26/04/2016 - 15:15:27][ClienteInterface - Metodo refreshOnlines]Usuarios : [Alto]
+[26/04/2016 - 15:15:27][ClienteInterface - Metodo refreshOnlines]***FIM***
+[26/04/2016 - 15:15:28][ClienteInterface - Metodo formWindowClosed]INICIO
+[26/04/2016 - 15:15:29][ClienteInterface - Metodo Disconnected[DES]]***Inicio****
+[26/04/2016 - 15:15:29][ClienteInterface - Metodo Disconnected[DES]][Alto]Texto : [B@1c8101a
+[26/04/2016 - 15:15:29][ClienteInterface - Metodo Disconnected[DES]][Alto]***FIM***
+[26/04/2016 - 15:15:29][ClienteInterface - Metodo formWindowClosed][Desconectando]FIM disconnected

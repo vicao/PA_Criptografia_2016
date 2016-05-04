@@ -1,0 +1,59 @@
+abr 26, 2016 3:17:42 PM app.Sistema.ClienteService send
+GRAVE: null
+java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1877)
+	at java.io.ObjectOutputStream$BlockDataOutputStream.setBlockDataMode(ObjectOutputStream.java:1786)
+	at java.io.ObjectOutputStream.writeNonProxyDesc(ObjectOutputStream.java:1286)
+	at java.io.ObjectOutputStream.writeClassDesc(ObjectOutputStream.java:1231)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1427)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeFatalException(ObjectOutputStream.java:1577)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:351)
+	at app.Sistema.ClienteService.send(ClienteService.java:37)
+	at app.frames.ClientInterface.disconnected(ClientInterface.java:215)
+	at app.frames.ClientInterface.formWindowClosing(ClientInterface.java:785)
+	at app.frames.ClientInterface.access$500(ClientInterface.java:36)
+	at app.frames.ClientInterface$1.windowClosing(ClientInterface.java:395)
+	at java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:349)
+	at java.awt.Window.processWindowEvent(Window.java:2058)
+	at javax.swing.JFrame.processWindowEvent(JFrame.java:297)
+	at java.awt.Window.processEvent(Window.java:2017)
+	at java.awt.Component.dispatchEventImpl(Component.java:4881)
+	at java.awt.Container.dispatchEventImpl(Container.java:2292)
+	at java.awt.Window.dispatchEventImpl(Window.java:2739)
+	at java.awt.Component.dispatchEvent(Component.java:4703)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:746)
+	at java.awt.EventQueue.access$400(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:697)
+	at java.awt.EventQueue$3.run(EventQueue.java:691)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:719)
+	at java.awt.EventQueue$4.run(EventQueue.java:717)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:716)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+
+ca
+[26/04/2016 - 15:17:05][[btnEnviarActionPerformed]][message]ChaveDES : null
+[26/04/2016 - 15:17:05][[btnEnviarActionPerformed]]TextoClaro : ze
+[26/04/2016 - 15:17:05][[btnEnviarActionPerformed]]Textocriptofrado : [B@7080ea
+[26/04/2016 - 15:15:44][Exception]descriptar : Given final block not properly padded
+[26/04/2016 - 15:17:05][[btnEnviarActionPerformed]]TextoDescriptografado : 
+|*******************************************|
+[26/04/2016 - 15:17:38][ClienteInterface - IOException]Erro : Connection reset
+[26/04/2016 - 15:17:41][ClienteInterface - Metodo formWindowClosed]INICIO
+[26/04/2016 - 15:17:42][ClienteInterface - Metodo Disconnected[DES]]***Inicio****
+[26/04/2016 - 15:17:42][ClienteInterface - Metodo Disconnected[DES]][Datra]Texto : [B@7080ea
+[26/04/2016 - 15:17:42][ClienteInterface - Metodo Disconnected[DES]][Datra]***FIM***
+[26/04/2016 - 15:17:42][ClienteInterface - Metodo formWindowClosed][Desconectando]FIM disconnected

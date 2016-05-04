@@ -1,0 +1,99 @@
+[02/05/2016 - 17:12:50][ClienteInterface - Metodo Connected]***Inicio****
+[02/05/2016 - 17:12:50][ClienteInterface - Metodo Connected][jaum]Chave DES gerada : javax.crypto.spec.SecretKeySpec@181cf
+[02/05/2016 - 17:12:50][ClienteInterface - Metodo Connected][jaum]isIsGenaratedKey : true
+[02/05/2016 - 17:12:50][ClienteInterface - Metodo Connected][jaum][TpCrypt] 2
+[02/05/2016 - 17:12:50][ClienteInterface - Metodo Connected][jaum][TpCrypt] 2
+[02/05/2016 - 17:12:50][ClienteInterface - Metodo Connected][Chave DES] : javax.crypto.spec.SecretKeySpec@181cf
+[02/05/2016 - 17:12:52][ClienteInterface - Metodo Connected][jaum]Você está conectado no chat!
+[02/05/2016 - 17:12:52][ClienteInterface - Metodo Connected]***FIM****
+[02/05/2016 - 17:12:52][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[02/05/2016 - 17:12:52][ClienteInterface - Metodo refreshOnlines]Usuario : jaum
+[02/05/2016 - 17:12:52][ClienteInterface - Metodo refreshOnlines]Usuarios : [jaum]
+[02/05/2016 - 17:12:52][ClienteInterface - Metodo refreshOnlines]***FIM***
+[02/05/2016 - 17:13:05][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[02/05/2016 - 17:13:05][ClienteInterface - Metodo refreshOnlines]Usuario : jaum
+[02/05/2016 - 17:13:05][ClienteInterface - Metodo refreshOnlines]Usuarios : [oarada, jaum]
+[02/05/2016 - 17:13:05][ClienteInterface - Metodo refreshOnlines]***FIM***
+[02/05/2016 - 17:13:18][ClienteInterface - Metodo btnEnviar[TpCrypt]]tpCrypt : 2
+[02/05/2016 - 17:13:18][ClienteInterface - Metodo btnEnviar[TpCrypt]]this.tpCrypt : 2
+[02/05/2016 - 17:13:18][ClienteInterface - Metodo btnEnviar][jaum]isConnected : true
+[02/05/2016 - 17:13:18][ClienteInterface - Metodo criptografar] Texto : teste
+[02/05/2016 - 17:13:18][ClienteInterface - Metodo criptografar[DES]][jaum]Texto Claro : teste
+[02/05/2016 - 17:13:18][ClienteInterface - Metodo criptografar[DES]][jaum]ChavesDES : javax.crypto.spec.SecretKeySpec@181cf
+Texto Claro : teste
+Texto Encriptado : [B@a7b87c
+[02/05/2016 - 17:13:18][ClienteInterface - Metodo criptografar[DES]] aux : [B@a7b87c
+|*******************************************|
+[02/05/2016 - 17:13:18][[btnEnviarActionPerformed]]ChaveDES : javax.crypto.spec.SecretKeySpec@181cf
+[02/05/2016 - 17:13:18][[btnEnviarActionPerformed]][message]ChaveDES : null
+[02/05/2016 - 17:13:18][[btnEnviarActionPerformed]]TextoClaro : teste
+[02/05/2016 - 17:13:18][[btnEnviarActionPerformed]]Textocriptofrado : [B@a7b87c
+[02/05/2016 - 17:12:06][Exception]descriptar : Given final block not properly padded
+[02/05/2016 - 17:13:18][[btnEnviarActionPerformed]]TextoDescriptografado : 
+|*******************************************|
+[02/05/2016 - 17:13:30][ClienteInterface - Metodo receive]****INICIO***
+[02/05/2016 - 17:13:30][ClienteInterface - Metodo receive][jaum][TpCrypt] 2
+[02/05/2016 - 17:13:30][ClienteInterface - Metodo ExibeMsg[DES]]Resultado : teste
+[02/05/2016 - 17:13:30][ClienteInterface - Metodo ExibeMsg[DES]]Resultado[toString] : teste
+[02/05/2016 - 17:13:30][ClienteInterface - Metodo receive]****FIM***
+[02/05/2016 - 17:13:39][ClienteInterface - Metodo btnEnviar[TpCrypt]]tpCrypt : 2
+[02/05/2016 - 17:13:39][ClienteInterface - Metodo btnEnviar[TpCrypt]]this.tpCrypt : 2
+[02/05/2016 - 17:13:39][ClienteInterface - Metodo btnEnviar][jaum]isConnected : true
+[02/05/2016 - 17:13:39][ClienteInterface - Metodo criptografar] Texto : ola
+[02/05/2016 - 17:13:39][ClienteInterface - Metodo criptografar[DES]][jaum]Texto Claro : ola
+[02/05/2016 - 17:13:39][ClienteInterface - Metodo criptografar[DES]][jaum]ChavesDES : javax.crypto.spec.SecretKeySpec@181cf
+Texto Claro : ola
+Texto Encriptado : [B@9b3d5c
+[02/05/2016 - 17:13:39][ClienteInterface - Metodo criptografar[DES]] aux : [B@9b3d5c
+|*******************************************|
+[02/05/2016 - 17:13:39][[btnEnviarActionPerformed]]ChaveDES : javax.crypto.spec.SecretKeySpec@181cf
+[02/05/2016 - 17:13:39][[btnEnviarActionPerformed]][message]ChaveDES : null
+[02/05/2016 - 17:13:39][[btnEnviarActionPerformed]]TextoClaro : ola
+[02/05/2016 - 17:13:39][[btnEnviarActionPerformed]]Textocriptofrado : [B@9b3d5c
+[02/05/2016 - 17:12:06][Exception]descriptar : Given final block not properly padded
+[02/05/2016 - 17:13:39][[btnEnviarActionPerformed]]TextoDescriptografado : 
+|*******************************************|
+[02/05/2016 - 17:14:09][ClienteInterface - Metodo btnEnviar[TpCrypt]]tpCrypt : 2
+[02/05/2016 - 17:14:09][ClienteInterface - Metodo btnEnviar[TpCrypt]]this.tpCrypt : 2
+[02/05/2016 - 17:14:09][ClienteInterface - Metodo btnEnviar][jaum]isConnected : true
+[02/05/2016 - 17:14:09][ClienteInterface - Metodo criptografar] Texto : zim man
+[02/05/2016 - 17:14:09][ClienteInterface - Metodo criptografar[DES]][jaum]Texto Claro : zim man
+[02/05/2016 - 17:14:09][ClienteInterface - Metodo criptografar[DES]][jaum]ChavesDES : javax.crypto.spec.SecretKeySpec@181cf
+Texto Claro : zim man
+Texto Encriptado : [B@419e82
+[02/05/2016 - 17:14:09][ClienteInterface - Metodo criptografar[DES]] aux : [B@419e82
+|*******************************************|
+[02/05/2016 - 17:14:09][[btnEnviarActionPerformed]]ChaveDES : javax.crypto.spec.SecretKeySpec@181cf
+[02/05/2016 - 17:14:09][[btnEnviarActionPerformed]][message]ChaveDES : null
+[02/05/2016 - 17:14:09][[btnEnviarActionPerformed]]TextoClaro : zim man
+[02/05/2016 - 17:14:09][[btnEnviarActionPerformed]]Textocriptofrado : [B@419e82
+[02/05/2016 - 17:12:06][Exception]descriptar : Given final block not properly padded
+[02/05/2016 - 17:14:09][[btnEnviarActionPerformed]]TextoDescriptografado : 
+|*******************************************|
+[02/05/2016 - 17:14:12][ClienteInterface - Metodo receive]****INICIO***
+[02/05/2016 - 17:14:12][ClienteInterface - Metodo receive][jaum][TpCrypt] 2
+[02/05/2016 - 17:14:12][ClienteInterface - Metodo ExibeMsg[DES]]Resultado : zim man
+[02/05/2016 - 17:14:12][ClienteInterface - Metodo ExibeMsg[DES]]Resultado[toString] : zim man
+[02/05/2016 - 17:14:12][ClienteInterface - Metodo receive]****FIM***
+[02/05/2016 - 17:14:29][ClienteInterface - Metodo btnEnviar[TpCrypt]]tpCrypt : 2
+[02/05/2016 - 17:14:29][ClienteInterface - Metodo btnEnviar[TpCrypt]]this.tpCrypt : 2
+[02/05/2016 - 17:14:29][ClienteInterface - Metodo btnEnviar][jaum]isConnected : true
+[02/05/2016 - 17:14:29][ClienteInterface - Metodo criptografar] Texto : e nois
+[02/05/2016 - 17:14:29][ClienteInterface - Metodo criptografar[DES]][jaum]Texto Claro : e nois
+[02/05/2016 - 17:14:29][ClienteInterface - Metodo criptografar[DES]][jaum]ChavesDES : javax.crypto.spec.SecretKeySpec@181cf
+Texto Claro : e nois
+Texto Encriptado : [B@17535b8
+[02/05/2016 - 17:14:29][ClienteInterface - Metodo criptografar[DES]] aux : [B@17535b8
+|*******************************************|
+[02/05/2016 - 17:14:29][[btnEnviarActionPerformed]]ChaveDES : javax.crypto.spec.SecretKeySpec@181cf
+[02/05/2016 - 17:14:29][[btnEnviarActionPerformed]][message]ChaveDES : null
+[02/05/2016 - 17:14:29][[btnEnviarActionPerformed]]TextoClaro : e nois
+[02/05/2016 - 17:14:29][[btnEnviarActionPerformed]]Textocriptofrado : [B@17535b8
+[02/05/2016 - 17:12:06][Exception]descriptar : Given final block not properly padded
+[02/05/2016 - 17:14:29][[btnEnviarActionPerformed]]TextoDescriptografado : 
+|*******************************************|
+[02/05/2016 - 17:14:36][ClienteInterface - Metodo Disconnected[DES]]***Inicio****
+[02/05/2016 - 17:14:36][ClienteInterface - Metodo Disconnected[DES]][jaum]Texto : [B@17535b8
+[02/05/2016 - 17:14:36][ClienteInterface - Metodo Disconnected[DES]][jaum]***FIM***
+[02/05/2016 - 17:14:44][ClienteInterface - Metodo formWindowClosed]INICIO
+[02/05/2016 - 17:14:44][ClienteInterface - Metodo formWindowClosed]FIM ELSE

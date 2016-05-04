@@ -1,0 +1,39 @@
+[26/04/2016 - 15:15:11][ClienteInterface - Metodo Connected]***Inicio****
+[26/04/2016 - 15:15:11][ClienteInterface - Metodo Connected][RATS]Chave DES gerada : javax.crypto.spec.SecretKeySpec@fffe7d49
+[26/04/2016 - 15:15:11][ClienteInterface - Metodo Connected][RATS]isIsGenaratedKey : false
+[26/04/2016 - 15:15:11][ClienteInterface - Metodo Connected][RATS][TpCrypt] 2
+[26/04/2016 - 15:15:11][ClienteInterface - Metodo Connected][RATS][TpCrypt] 2
+[26/04/2016 - 15:15:11][ClienteInterface - Metodo Connected][Chave DES] : javax.crypto.spec.SecretKeySpec@fffe7d49
+[26/04/2016 - 15:15:13][ClienteInterface - Metodo Connected][RATS]Você está conectado no chat!
+[26/04/2016 - 15:15:13][ClienteInterface - Metodo Connected]***FIM****
+[26/04/2016 - 15:15:13][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[26/04/2016 - 15:15:13][ClienteInterface - Metodo refreshOnlines]Usuario : RATS
+[26/04/2016 - 15:15:13][ClienteInterface - Metodo refreshOnlines]Usuarios : [RATS, Alto]
+[26/04/2016 - 15:15:13][ClienteInterface - Metodo refreshOnlines]***FIM***
+[26/04/2016 - 15:15:16][ClienteInterface - Metodo receive]****INICIO***
+[26/04/2016 - 15:15:16][ClienteInterface - Metodo receive][RATS][TpCrypt] 2
+[26/04/2016 - 15:15:17][ClienteInterface - Metodo receive[DES]]Resultado : oi
+[26/04/2016 - 15:15:17][ClienteInterface - Metodo receive[DES]]Resultado[toString] : oi
+[26/04/2016 - 15:15:17][ClienteInterface - Metodo receive]****FIM***
+[26/04/2016 - 15:15:21][ClienteInterface - Metodo btnEnviar[TpCrypt]]tpCrypt : 2
+[26/04/2016 - 15:15:21][ClienteInterface - Metodo btnEnviar[TpCrypt]]this.tpCrypt : 2
+[26/04/2016 - 15:15:21][ClienteInterface - Metodo btnEnviar][RATS]isConnected : true
+[26/04/2016 - 15:15:21][ClienteInterface - Metodo criptografar] Texto : ola
+[26/04/2016 - 15:15:21][ClienteInterface - Metodo criptografar[DES]][RATS]Texto Claro : ola
+[26/04/2016 - 15:15:21][ClienteInterface - Metodo criptografar[DES]][RATS]ChavesDES : javax.crypto.spec.SecretKeySpec@fffe7d49
+Texto Claro : ola
+Texto Encriptado : [B@7080ea
+[26/04/2016 - 15:15:21][ClienteInterface - Metodo criptografar[DES]] aux : [B@7080ea
+|*******************************************|
+[26/04/2016 - 15:15:21][[btnEnviarActionPerformed]]ChaveDES : javax.crypto.spec.SecretKeySpec@fffe7d49
+[26/04/2016 - 15:15:21][[btnEnviarActionPerformed]][message]ChaveDES : null
+[26/04/2016 - 15:15:21][[btnEnviarActionPerformed]]TextoClaro : ola
+[26/04/2016 - 15:15:21][[btnEnviarActionPerformed]]Textocriptofrado : [B@7080ea
+[26/04/2016 - 15:14:24][Exception]descriptar : Given final block not properly padded
+[26/04/2016 - 15:15:21][[btnEnviarActionPerformed]]TextoDescriptografado : 
+|*******************************************|
+[26/04/2016 - 15:15:26][ClienteInterface - Metodo formWindowClosed]INICIO
+[26/04/2016 - 15:15:27][ClienteInterface - Metodo Disconnected[DES]]***Inicio****
+[26/04/2016 - 15:15:27][ClienteInterface - Metodo Disconnected[DES]][RATS]Texto : [B@7080ea
+[26/04/2016 - 15:15:27][ClienteInterface - Metodo Disconnected[DES]][RATS]***FIM***
+[26/04/2016 - 15:15:27][ClienteInterface - Metodo formWindowClosed][Desconectando]FIM disconnected
