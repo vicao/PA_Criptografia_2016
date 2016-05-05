@@ -14,9 +14,9 @@ import javax.swing.JOptionPane;
 import javax.swing.JTextArea;
 
 /**
- * @author Breno Lopes de Lima - 31312514
+ 
  * @author Vinicius Dutra Cerqueira Rocha - 315112918
- * @author Kepler Nicolai Alves Freitas  - 31222198
+ 
  * @version 5.0
  * 
  */

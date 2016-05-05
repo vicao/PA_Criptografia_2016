@@ -1,11 +1,11 @@
 package app.frames.Cliente;
 
-import criptografia.EncriptaDecriptaDES;
-import app.Sistema.Cliente.Sistema;
+
+import app.Sistema.Sistema;
 import app.Sistema.ChatMessage;
 import app.Sistema.ChatMessage.Action;
 import app.Sistema.Cliente.ClienteService;
-import criptografia.ROT47;
+import criptografia.*;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -25,9 +25,9 @@ import javax.swing.JOptionPane;
 import javax.swing.ListSelectionModel;
 
 /**
- * @author Breno Lopes de Lima - 31312514
+ 
  * @author Vinicius Dutra Cerqueira Rocha - 315112918
- * @author Kepler Nicolai Alves Freitas  - 31222198
+
  * @version 5.0
  * 
  */
@@ -41,15 +41,19 @@ public class ClientInterface extends javax.swing.JFrame {
     private String nome = null;
     private String servidor = null;
     boolean isConected = false;
-    static EncriptaDecriptaDES classeDES = new EncriptaDecriptaDES();
-    static ROT47 rot = new ROT47();
+    static EncriptaDecriptaDES_v2 classeDES = new EncriptaDecriptaDES_v2();    
+    static AES aes = new AES();
     static Sistema sys = new Sistema();
     int tpCrypt = 0;
     Opcoes frameOpecoes;
     static KeyGenerator keygenerator;// = KeyGenerator.getInstance("DES");
     static SecretKey chaveDES = null;
+    static String chaveAES = null;
     File autolog;// = new File("teslog.logSc");
     String Data = new SimpleDateFormat("[dd_MM_yyyy-HH_mm_ss]").format(new Date(System.currentTimeMillis()));
+    String validaCrypt = "";
+    byte[] txtbyte = null;
+    
     
     public ClientInterface() {
         initComponents();
@@ -80,16 +84,7 @@ public class ClientInterface extends javax.swing.JFrame {
                     } else if (action.equals(Action.DISCONNECT)) {
                         disconnected();
                         socketTeste.close();
-                    } else if (action.equals(Action.SEND_ONE)) {
-                        sys.EscreveLogConsole("ClienteInterface - Metodo ListenerSocket{TpCrypt}", "[" + message.getName()+ "]" + "Valor : " +  message.getTpCrypt());
-                        if (message.getTpCrypt() == 0) {
-                            sys.EscreveLogConsole("ClienteInterface - Metodo ListenerSocket[NoCrypt]", "[" + message.getName()+ "]" + "Mensagem : " +  message.getText());
-                        }else if (message.getTpCrypt() == 1) {
-                            sys.EscreveLogConsole("ClienteInterface - Metodo ListenerSocket[ROT47]", "[" + message.getName()+ "]" + "Mensagem : " +  message.getText());
-                        }else if (message.getTpCrypt() == 2) {
-                            sys.EscreveLogConsole("ClienteInterface - Metodo ListenerSocket[DES]", "[" + message.getName()+ "]" + "Mensagem : " +  message.getBytetxt().toString());
-                        }
-                        
+                    } else if (action.equals(Action.SEND_ONE)) {                      
                         //System.out.println("::: " + message.getText() + " :::");
                         receive(message);
                     } else if (action.equals(Action.USERS_ONLINE)) {
@@ -129,7 +124,7 @@ public class ClientInterface extends javax.swing.JFrame {
                 //message.setIsGenaratedKey(true);
                 sys.EscreveLogConsole("ClienteInterface - Metodo Connected", "[" + this.message.getName() + "]" + "Chave DES gerada : " + message.getChaveDES());
                 sys.EscreveLogConsole("ClienteInterface - Metodo Connected", "[" + this.message.getName() + "]" + "isIsGenaratedKey : " + message.isIsGenaratedKey());
-                message.setChaveDES(chaveDES);
+                //message.setChaveDES(chaveDES);
                 
             //}
 
@@ -157,7 +152,11 @@ public class ClientInterface extends javax.swing.JFrame {
 
         this.StatusLabel.setText("Conectado");
         
-        sys.EscreveLogConsole("ClienteInterface - Metodo Connected", "[Chave DES] : " + this.message.getChaveDES());
+        //Inseri essa linha e a descriptografia começou a funcionar normalmente.
+        chaveDES = this.message.getChaveDES();
+        //************************************************
+        
+        sys.EscreveLogConsole("ClienteInterface - Metodo Connected", "[Chave DES] : " + chaveDES);
         
         JOptionPane.showMessageDialog(this, "Você está conectado no chat!");
         sys.EscreveLogConsole("ClienteInterface - Metodo Connected",  "[" + this.message.getName()+ "]" + "Você está conectado no chat!");
@@ -171,6 +170,8 @@ public class ClientInterface extends javax.swing.JFrame {
      */
     private void disconnected() {
         
+        byte[] varAuxDIS = null;
+        String ChaveAES = null;
         isConected = false;
         //*********Metodo Desconectar
         //ChatMessage message = new ChatMessage();
@@ -183,16 +184,28 @@ public class ClientInterface extends javax.swing.JFrame {
             
             String aux = this.message.getText();
             
-            sys.EscreveLogConsole("ClienteInterface - Metodo Disconnected[ROT47]", "***Inicio****");
-            sys.EscreveLogConsole("ClienteInterface - Metodo Disconnected[ROT47]",  "[" + this.message.getName()+ "]" + "Texto : " + aux);
-            sys.EscreveLogConsole("ClienteInterface - Metodo Disconnected[ROT47]",  "[" + this.message.getName()+ "]" + "Texto Descriptografado : " + rot.getDecifraROT47(aux));
-            sys.EscreveLogConsole("ClienteInterface - Metodo Disconnected[ROT47]",  "[" + this.message.getName()+ "]" + "***FIM***");
+            sys.EscreveLogConsole("ClienteInterface - Metodo Disconnected[AES]", "***Inicio****");
+            sys.EscreveLogConsole("ClienteInterface - Metodo Disconnected[AES]",  "[" + this.message.getName()+ "]" + "Texto : " + aux);
+            
+            //AES
+            varAuxDIS = this.message.getBytetxt();            
+            try {
+                sys.EscreveLogConsole("ClienteInterface - Metodo Disconnected[AES]",  "[" + this.message.getName()+ "]" + "Texto Descriptografado : " + aes.decrypt(varAuxDIS, ChaveAES));
+            } catch (Exception ex) {
+                sys.EscreveLogConsole("ClienteInterface - Metodo Disconnected[AES]","Erro AES : " + ex.getMessage());
+                
+            }
+            
+            //Rot47
+            //sys.EscreveLogConsole("ClienteInterface - Metodo Disconnected[ROT47]",  "[" + this.message.getName()+ "]" + "Texto Descriptografado : " + rot.Decrypt(aux));
+            
+            sys.EscreveLogConsole("ClienteInterface - Metodo Disconnected[AES]",  "[" + this.message.getName()+ "]" + "***FIM***");
             
         }else if(this.message.getTpCrypt() == 2){
             
-            byte[] aux = this.message.getBytetxt();
+            varAuxDIS = this.message.getBytetxt();
             sys.EscreveLogConsole("ClienteInterface - Metodo Disconnected[DES]", "***Inicio****");
-            sys.EscreveLogConsole("ClienteInterface - Metodo Disconnected[DES]",  "[" + this.message.getName()+ "]" + "Texto : " + aux);
+            sys.EscreveLogConsole("ClienteInterface - Metodo Disconnected[DES]",  "[" + this.message.getName()+ "]" + "Texto : " + varAuxDIS);
             //sys.EscreveLogConsole("ClienteInterface - Metodo Disconnected[DES]",  "[" + this.message.getName()+ "]" + "Texto Descriptografado : " + classeDES.descriptar(aux));
             sys.EscreveLogConsole("ClienteInterface - Metodo Disconnected[DES]",  "[" + this.message.getName()+ "]" + "***FIM***");
             
@@ -231,32 +244,7 @@ public class ClientInterface extends javax.swing.JFrame {
         
         sys.EscreveLogConsole("ClienteInterface - Metodo receive",  "[" + this.message.getName()+ "]" + "[TpCrypt] " + a);
         
-        
-        if (message.getTpCrypt() == 0) {
-
-            //Sem Criptografia        
-            this.txtAreaReceive.append(message.getName() + " diz : " + message.getText() + "\n");
-            sys.EscreveLogConsole("ClienteInterface - Metodo receive[noCrypt]", "[" + message.getName()+ "]" + message.getText());
-        } else if (message.getTpCrypt() == 1) {
-
-            //Com Criptografia Rot47
-            String txtcripto = message.getText();
-            sys.EscreveLogConsole("ClienteInterface - Metodo receive[Rot47]", "[" + message.getName()+ "]" + "txtcripto : " + txtcripto);
-            String claro = rot.getDecifraROT47(txtcripto);
-            this.txtAreaReceive.append(message.getName() + " diz : " + claro + "\n");
-
-        } else if (message.getTpCrypt() == 2) {
-
-            //Criptografia DES
-            //byte[] encriptado = null;
-            String resultado = "";
-            //encriptado = classeDES.encriptar(message.getText());       
-            resultado = classeDES.descriptar(message.getBytetxt(),chaveDES);
-            this.txtAreaReceive.append(message.getName() + " diz : " + resultado + "\n");
-            sys.EscreveLogConsole("ClienteInterface - Metodo receive[DES]", "Resultado : " + resultado);
-            sys.EscreveLogConsole("ClienteInterface - Metodo receive[DES]", "Resultado[toString] : " + resultado.toString());
-//            sys.EscreveLogConsole("ClienteInterface - Metodo receive[DES]", "Teste[DES] : " +classeDES.descriptar(message.getBytetxt()));
-        }
+        ExibeMsg(message.getTpCrypt());       
 
         sys.EscreveLogConsole("ClienteInterface - Metodo receive", "****FIM***");
     }
@@ -285,37 +273,25 @@ public class ClientInterface extends javax.swing.JFrame {
      * @param i tipo de criptografia selecionado pelo usuário
      * @param txt texto a ser criptografado
      * @return 
-     */
-    private String criptografar(int i, String txt) {
+     
+    private String criptografarROT47(int i, String txt) {
         
         //Variável para armazenar o texto criptografado
         String txtcriptografado = "";
-        sys.EscreveLogConsole("ClienteInterface - Metodo criptografar"," Texto : " + txt);
+        sys.EscreveLogConsole("ClienteInterface - Metodo criptografarROT47"," Texto : " + txt);
         if (i == 1) {
             //Rot47
-            sys.EscreveLogConsole("ClienteInterface - Metodo criptografar[ROT47]", "[" + this.message.getName() + "]" + "Texto Claro : " + txt);
-            String criptografado = rot.getCifra(txt);
-            sys.EscreveLogConsole("ClienteInterface - Metodo criptografar[ROT47]", "Texto Criptografado : " + rot.getCifra(txt));
-            sys.EscreveLogConsole("ClienteInterface - Metodo criptografar[ROT47]", "[" + this.message.getName() + "]" + "Texto Descriptografado : " + rot.getDecifraROT47(criptografado));
+            sys.EscreveLogConsole("ClienteInterface - Metodo criptografarROT47[ROT47]", "[" + this.message.getName() + "]" + "Texto Claro : " + txt);
+            String criptografado = rot.Encrypt(txt);
+            sys.EscreveLogConsole("ClienteInterface - Metodo criptografarROT47[ROT47]", "Texto Criptografado : " + rot.Encrypt(txt));
+            sys.EscreveLogConsole("ClienteInterface - Metodo criptografarROT47[ROT47]", "[" + this.message.getName() + "]" + "Texto Descriptografado : " + rot.Decrypt(criptografado));
             txtcriptografado = criptografado;
             /*
             Variavel de teste para verificar qual o texto criptografado usando ROT47
-            */
+            /
             String teste = "";
            
-            sys.EscreveLogConsole("ClienteInterface - Metodo criptografar[ROT47]", "[" + this.message.getName() + "]" + "Teste : " + txtcriptografado);
-
-        } else if (i == 2) {
-            //DES
-            sys.EscreveLogConsole("ClienteInterface - Metodo criptografar[DES]", "[" + this.message.getName() + "]" + "Texto Claro : " + txt);
- 
-            sys.EscreveLogConsole("ClienteInterface - Metodo criptografar[DES]"," ChavesDES : " + chaveDES);
-            //Momento que ocorre a encriptação do texto com base na chave DES gerada.            
-            byte[] aux = classeDES.encriptar(txt,chaveDES);            
-            
-            sys.EscreveLogConsole("ClienteInterface - Metodo criptografar[DES]"," aux : " + aux);
-            //Armazeno em uma string os Bytes criptografados
-            txtcriptografado = aux.toString();
+            sys.EscreveLogConsole("ClienteInterface - Metodo criptografarROT47[ROT47]", "[" + this.message.getName() + "]" + "Teste : " + txtcriptografado);
 
         } else if (i == 0) {
             //Sem criptografia o texto é armaezando na variável que será retornado
@@ -324,7 +300,8 @@ public class ClientInterface extends javax.swing.JFrame {
 
         return txtcriptografado;
     }
-
+*/
+    
     private byte[] criptografarDES(int i, String txt) {
  
         sys.EscreveLogConsole("ClienteInterface - Metodo criptografar", " Texto : " + txt);
@@ -332,16 +309,55 @@ public class ClientInterface extends javax.swing.JFrame {
         //DES
         sys.EscreveLogConsole("ClienteInterface - Metodo criptografar[DES]", "[" + this.message.getName() + "]" + "Texto Claro : " + txt);
 
-        sys.EscreveLogConsole("ClienteInterface - Metodo criptografar[DES]", " ChavesDES : " + chaveDES);
+        sys.EscreveLogConsole("ClienteInterface - Metodo criptografar[DES]", "[" + this.message.getName() + "]" + "ChavesDES : " + chaveDES);
         
         //Momento que ocorre a encriptação do texto com base na chave DES gerada.            
-        byte[] aux = classeDES.encriptar(txt, chaveDES);
+        byte[] aux = classeDES.DESPaddingECB(txt, chaveDES);
 
         sys.EscreveLogConsole("ClienteInterface - Metodo criptografar[DES]", " aux : " + aux);       
 
         return aux;
     }
     
+    private byte[] criptografiaAES(String txt){
+        byte[] auxAES = null;
+        try {
+            auxAES = aes.encrypt(txt, chaveAES);
+        } catch (Exception ex) {
+             sys.EscreveLogConsole("ClienteInterface - Metodo Disconnected[AES]","Erro AES : " + ex.getMessage());
+        }
+        
+        return auxAES;
+    }
+    
+    private void ExibeMsg(int TipoCriptografia) {
+        
+        if (TipoCriptografia == 0) {
+
+            //Sem Criptografia        
+            this.txtAreaReceive.append(message.getName() + " diz : " + message.getText() + "\n");
+            sys.EscreveLogConsole("ClienteInterface - Metodo ExibeMsg[noCrypt]", "[" + message.getName() + "]" + message.getText());
+        } else if (TipoCriptografia == 1) {
+
+            //Com Criptografia Rot47
+            String txtcripto = message.getText();
+            sys.EscreveLogConsole("ClienteInterface - Metodo ExibeMsg[AES]", "[" + message.getName() + "]" + "txtcripto : " + txtcripto);
+            //String claro = rot.Decrypt(txtcripto);
+            //this.txtAreaReceive.append(message.getName() + " diz : " + claro + "\n");
+
+        } else if (TipoCriptografia == 2) {
+
+            //Criptografia DES
+            //byte[] encriptado = null;
+            String resultado = "";
+            //encriptado = classeDES.encriptar(message.getText());       
+            resultado = classeDES.DESPaddingECBDecrypter(message.getBytetxt(), chaveDES);
+            this.txtAreaReceive.append(message.getName() + " diz : " + resultado + "\n");
+            sys.EscreveLogConsole("ClienteInterface - Metodo ExibeMsg[DES]", "Resultado : " + resultado);
+            sys.EscreveLogConsole("ClienteInterface - Metodo ExibeMsg[DES]", "Resultado[toString] : " + resultado.toString());
+            //sys.EscreveLogConsole("ClienteInterface - Metodo ExibeMsg[DES]", "Teste[DES] : " +classeDES.descriptar(message.getBytetxt()));
+        }
+    }
     
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
@@ -375,7 +391,7 @@ public class ClientInterface extends javax.swing.JFrame {
         MenuOpcoes = new javax.swing.JMenuItem();
         BotaoSobre = new javax.swing.JMenuItem();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
         addWindowListener(new java.awt.event.WindowAdapter() {
             public void windowClosing(java.awt.event.WindowEvent evt) {
@@ -590,17 +606,17 @@ public class ClientInterface extends javax.swing.JFrame {
             } else if (this.message.getTpCrypt() == 1) {
                 
                 //Criptografia ROT47
-                  String criptografado = criptografar(this.message.getTpCrypt(),text);                 
-                  this.message.setText(criptografado);
+                  //String criptografado = criptografarROT47(this.message.getTpCrypt(),text);                 
+                  //this.message.setText(criptografado);
                   sys.EscreveLogConsole("ClienteInterface - Metodo btnEnviar[ROT47]","[" + this.message.getName()+ "]" + "textOld : " + textOld);
                   sys.EscreveLogConsole("ClienteInterface - Metodo btnEnviar[ROT47]","[" + this.message.getName()+ "]" + "txtMSG : " + this.message.getText());
                   
             } else if (this.message.getTpCrypt() == 2) {
 
                 //Criptografia DES
-                //String aux = criptografar(this.message.getTpCrypt(),text);
+                //String aux = criptografarROT47(this.message.getTpCrypt(),text);
                 //byte[] txtbyte = aux.getBytes();                    
-                byte[] txtbyte = criptografarDES(this.message.getTpCrypt(), text);
+                txtbyte = criptografarDES(this.message.getTpCrypt(), text);
                 this.message.setBytetxt(txtbyte);
                 this.message.setText("");
 
@@ -619,6 +635,13 @@ public class ClientInterface extends javax.swing.JFrame {
             
             
             this.txtAreaReceive.append("Voce disse : " + textOld + "\n");
+            System.out.println("|*******************************************|");
+            sys.EscreveLogConsole("[btnEnviarActionPerformed]","ChaveDES : " + chaveDES);
+            sys.EscreveLogConsole("[btnEnviarActionPerformed]","[message]ChaveDES : " + this.message.getChaveDES());
+            sys.EscreveLogConsole("[btnEnviarActionPerformed]","TextoClaro : " + textOld);
+            sys.EscreveLogConsole("[btnEnviarActionPerformed]","Textocriptofrado : " + txtbyte);
+            sys.EscreveLogConsole("[btnEnviarActionPerformed]","TextoDescriptografado : " +  classeDES.DESPaddingCBCDecrypter(txtbyte, chaveDES));
+            System.out.println("|*******************************************|");
             this.service.send(this.message);
             this.txtAreaSend.setText(null);
             
@@ -669,13 +692,14 @@ public class ClientInterface extends javax.swing.JFrame {
 
     private void btnConnectarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnConnectarActionPerformed
 
-            servidor = "localhost";
-            nome = "Administrador";
+            servidor = JOptionPane.showInputDialog("Informe o Ip do servidor : ");
+            nome = JOptionPane.showInputDialog("Digite seu nome : ");
             boolean aux = validaDados(servidor, nome);
             if (aux) {
                 
                 this.message = new ChatMessage();
                 
+                System.out.println("[antes do if]TpCrypt : " + tpCrypt);
                 //habilitar criptografia :
                 if (tpCrypt == 0) {
                     if(JOptionPane.showConfirmDialog(null, "Voce nao informou qual tipo de criptografia irá utilizar. Deseja utilizar DES?\n"
@@ -695,7 +719,8 @@ public class ClientInterface extends javax.swing.JFrame {
                 this.message.setAction(Action.CONNECT);
                 this.message.setName(nome);
                 this.message.setTpCrypt(tpCrypt);
-                
+                System.out.println("[depois do If]TpCrypt : " + tpCrypt);
+                System.out.println("[this.message.getTpCrypt()]TpCrypt : " + this.message.getTpCrypt());
                 this.service = new ClienteService();
                 this.socketTeste = this.service.connect(servidor);
                 
@@ -706,8 +731,14 @@ public class ClientInterface extends javax.swing.JFrame {
                 
                 
                 isConected = true;
-                //Altera o titulo da janela exibindo o nome do usuário e o ip/endereco do servidor.
-                this.setTitle(nome + " conectado no Servidor : " + servidor);
+                
+                //Altera o titulo da janela exibindo o nome do usuário e o ip/endereco do servidor e status da cryptografia
+                validaCrypt = (this.message.getTpCrypt() == 0) ? "Desativada" : "Ativada";
+                validaCrypt = (this.message.getTpCrypt() == 1) ? "[AES]Ativada" : "[AES]Desativada";
+                validaCrypt = (this.message.getTpCrypt() == 2) ? "[DES]Ativada" : "[DES]Desativada";
+                this.setTitle(nome + " conectado no Servidor : " + servidor + " Criptografia : " + validaCrypt);
+                
+                
                 btnConnectar.setEnabled(false);
                 txtAreaSend.setEditable(true);
                 
@@ -745,6 +776,7 @@ public class ClientInterface extends javax.swing.JFrame {
     }//GEN-LAST:event_formWindowOpened
 
     private void formWindowClosing(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowClosing
+        
         sys.EscreveLogConsole("ClienteInterface - Metodo formWindowClosed",  "INICIO");
         if (isConected == true) {
             /*
@@ -755,13 +787,13 @@ public class ClientInterface extends javax.swing.JFrame {
 
                 disconnected();
                 sys.EscreveLogConsole("ClienteInterface - Metodo formWindowClosed",  "[Desconectando]FIM disconnected");
-                //System.exit(0);
+                System.exit(0);
             } else {
                 return;
             }
         } else {
             sys.EscreveLogConsole("ClienteInterface - Metodo formWindowClosed",  "FIM ELSE");
-            //System.exit(0);
+            System.exit(0);
         }
 
         
@@ -879,6 +911,7 @@ public class ClientInterface extends javax.swing.JFrame {
      * Metodo responsavel pela geracao da chave de criptografia
      * @return retorna a chave gerada
      */
+    
     /*
     public SecretKey geraChaveDES() {
         try {
@@ -895,9 +928,10 @@ public class ClientInterface extends javax.swing.JFrame {
     public void AutoLog(){
     
         try {
-            autolog = new File("LogsCripto\\" + Data + "[Serverchat][autoLog]" + nome + ".logSc");
+            autolog = new File("LogsCripto\\" + Data + "_autoLog_" + nome + ".logSc");
             sys.CriaLog(autolog);
-            System.setOut(new PrintStream(autolog));
+            System.setErr(new PrintStream(autolog));
+            System.setOut(new PrintStream(autolog));            
         } catch (FileNotFoundException ex) {
             Logger.getLogger(ClientInterface.class.getName()).log(Level.SEVERE, null, ex);
         }

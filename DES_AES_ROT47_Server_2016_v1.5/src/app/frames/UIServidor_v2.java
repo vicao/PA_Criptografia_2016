@@ -246,9 +246,7 @@ public class UIServidor_v2 extends javax.swing.JFrame {
     }//GEN-LAST:event_formWindowClosing
 
     private void MenuSobreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MenuSobreActionPerformed
-                JOptionPane.showMessageDialog(null, "    Desenvolvido por : \n Breno Lopes de Lima - 31312514\n" +
-" Vinicius Dutra Cerqueira Rocha - 315112918\n" +
-" Kepler Nicolai Alves Freitas  - 31222198"
+                JOptionPane.showMessageDialog(null, "    Desenvolvido por : \n Vinicius Dutra Cerqueira Rocha - 315112918\n" 
                 + "\nVersao 5.3" + "\nDezembro 2015 ", "Sobre a aplicacao", JOptionPane.INFORMATION_MESSAGE);
     }//GEN-LAST:event_MenuSobreActionPerformed
 
