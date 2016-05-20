@@ -1,0 +1,17 @@
+[19/05/2016 - 14:11:22][ClienteInterface - Metodo Connected]***Inicio****
+[19/05/2016 - 14:11:22][ClienteInterface - Metodo Connected][qwerty]Chave DES gerada : javax.crypto.spec.SecretKeySpec@185f5
+[19/05/2016 - 14:11:22][ClienteInterface - Metodo Connected][qwerty]isIsGenaratedKey : true
+[19/05/2016 - 14:11:22][ClienteInterface - Metodo Connected][qwerty][TpCrypt] 2
+[19/05/2016 - 14:11:22][ClienteInterface - Metodo Connected][qwerty][TpCrypt] 2
+[19/05/2016 - 14:11:22][ClienteInterface - Metodo Connected][Chave DES] : javax.crypto.spec.SecretKeySpec@185f5
+[19/05/2016 - 14:11:24][ClienteInterface - Metodo Connected][qwerty]Você está conectado no chat!
+[19/05/2016 - 14:11:24][ClienteInterface - Metodo Connected]***FIM****
+[19/05/2016 - 14:11:24][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[19/05/2016 - 14:11:24][ClienteInterface - Metodo refreshOnlines]Usuario : qwerty
+[19/05/2016 - 14:11:24][ClienteInterface - Metodo refreshOnlines]Usuarios : [qwerty]
+[19/05/2016 - 14:11:24][ClienteInterface - Metodo refreshOnlines]***FIM***
+[19/05/2016 - 14:11:28][ClienteInterface - Metodo Disconnected[DES]]***Inicio****
+[19/05/2016 - 14:11:28][ClienteInterface - Metodo Disconnected[DES]][qwerty]Texto : null
+[19/05/2016 - 14:11:28][ClienteInterface - Metodo Disconnected[DES]][qwerty]***FIM***
+[19/05/2016 - 14:11:33][ClienteInterface - Metodo formWindowClosed]INICIO
+[19/05/2016 - 14:11:33][ClienteInterface - Metodo formWindowClosed]FIM ELSE

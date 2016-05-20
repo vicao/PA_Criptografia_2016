@@ -1,0 +1,50 @@
+[17/05/2016 - 13:19:35][ClienteInterface - Metodo Connected]***Inicio****
+[17/05/2016 - 13:19:35][ClienteInterface - Metodo Connected][olf]Chave DES gerada : javax.crypto.spec.SecretKeySpec@18143
+[17/05/2016 - 13:19:35][ClienteInterface - Metodo Connected][olf]isIsGenaratedKey : false
+[17/05/2016 - 13:19:35][ClienteInterface - Metodo Connected][olf][TpCrypt] 2
+[17/05/2016 - 13:19:35][ClienteInterface - Metodo Connected][olf][TpCrypt] 2
+[17/05/2016 - 13:19:35][ClienteInterface - Metodo Connected][Chave DES] : javax.crypto.spec.SecretKeySpec@18143
+[17/05/2016 - 13:19:35][ClienteInterface - Metodo Connected][Teste][Chave DES] : AtYfOzJnzms=
+[17/05/2016 - 13:19:37][ClienteInterface - Metodo Connected][olf]Você está conectado no chat!
+[17/05/2016 - 13:19:37][ClienteInterface - Metodo Connected]***FIM****
+[17/05/2016 - 13:19:37][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[17/05/2016 - 13:19:37][ClienteInterface - Metodo refreshOnlines]Usuario : olf
+[17/05/2016 - 13:19:37][ClienteInterface - Metodo refreshOnlines]Usuarios : [olf, Katas]
+[17/05/2016 - 13:19:37][ClienteInterface - Metodo refreshOnlines]***FIM***
+[17/05/2016 - 13:19:41][ClienteInterface - Metodo receive]****INICIO***
+[17/05/2016 - 13:19:41][ClienteInterface - Metodo receive][olf][TpCrypt] 2
+[17/05/2016 - 13:17:15][Exception]descriptar : Null input buffer
+[17/05/2016 - 13:19:41][ClienteInterface - Metodo ExibeMsg[DES]]Resultado : 
+[17/05/2016 - 13:19:41][ClienteInterface - Metodo ExibeMsg[DES]]Resultado[toString] : 
+[17/05/2016 - 13:19:41][ClienteInterface - Metodo receive]****FIM***
+[17/05/2016 - 13:19:44][ClienteInterface - Metodo btnEnviar[TpCrypt]]tpCrypt : 2
+[17/05/2016 - 13:19:44][ClienteInterface - Metodo btnEnviar[TpCrypt]]this.tpCrypt : 2
+[17/05/2016 - 13:19:44][ClienteInterface - Metodo btnEnviar][olf]isConnected : true
+[17/05/2016 - 13:19:44][ClienteInterface - Metodo criptografar] Texto : ze
+[17/05/2016 - 13:19:44][ClienteInterface - Metodo criptografar[DES]][olf]Texto Claro : ze
+[17/05/2016 - 13:19:44][ClienteInterface - Metodo criptografar[DES]][olf]ChavesDES : javax.crypto.spec.SecretKeySpec@18143
+Texto Claro : ze
+Texto Encriptado : [B@1ae09d3
+[17/05/2016 - 13:19:44][ClienteInterface - Metodo criptografar[DES]] aux : [B@1ae09d3
+|*******************************************|
+[17/05/2016 - 13:19:44][[btnEnviarActionPerformed]]ChaveDES : javax.crypto.spec.SecretKeySpec@18143
+[17/05/2016 - 13:19:44][[btnEnviarActionPerformed]][message]ChaveDES : null
+[17/05/2016 - 13:19:44][ClienteInterface - Metodo Connected][Teste][Chave DES] : AtYfOzJnzms=
+[17/05/2016 - 13:19:44][[btnEnviarActionPerformed]]TextoClaro : ze
+[17/05/2016 - 13:19:44][[btnEnviarActionPerformed]]Textocriptofrado : [B@1ae09d3
+[17/05/2016 - 13:17:15][Exception]descriptar : Given final block not properly padded
+[17/05/2016 - 13:19:44][[btnEnviarActionPerformed]]TextoDescriptografado : 
+|*******************************************|
+[17/05/2016 - 13:19:55][ClienteInterface - Metodo receive]****INICIO***
+[17/05/2016 - 13:19:55][ClienteInterface - Metodo receive][olf][TpCrypt] 0
+[17/05/2016 - 13:19:55][ClienteInterface - Metodo ExibeMsg[noCrypt]][olf]
+[17/05/2016 - 13:19:55][ClienteInterface - Metodo receive]****FIM***
+[17/05/2016 - 13:19:55][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[17/05/2016 - 13:19:55][ClienteInterface - Metodo refreshOnlines]Usuario : olf
+[17/05/2016 - 13:19:55][ClienteInterface - Metodo refreshOnlines]Usuarios : [olf]
+[17/05/2016 - 13:19:55][ClienteInterface - Metodo refreshOnlines]***FIM***
+[17/05/2016 - 13:19:57][ClienteInterface - Metodo Disconnected[DES]]***Inicio****
+[17/05/2016 - 13:19:57][ClienteInterface - Metodo Disconnected[DES]][olf]Texto : [B@1ae09d3
+[17/05/2016 - 13:19:57][ClienteInterface - Metodo Disconnected[DES]][olf]***FIM***
+[17/05/2016 - 13:19:59][ClienteInterface - Metodo formWindowClosed]INICIO
+[17/05/2016 - 13:19:59][ClienteInterface - Metodo formWindowClosed]FIM ELSE

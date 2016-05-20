@@ -1,0 +1,34 @@
+[26/04/2016 - 14:49:48][ClienteInterface - Metodo Connected]***Inicio****
+[26/04/2016 - 14:49:48][ClienteInterface - Metodo Connected][Ze]Chave DES gerada : javax.crypto.spec.SecretKeySpec@1866a
+[26/04/2016 - 14:49:48][ClienteInterface - Metodo Connected][Ze]isIsGenaratedKey : true
+[26/04/2016 - 14:49:48][ClienteInterface - Metodo Connected][Ze][TpCrypt] 2
+[26/04/2016 - 14:49:48][ClienteInterface - Metodo Connected][Ze][TpCrypt] 2
+[26/04/2016 - 14:49:48][ClienteInterface - Metodo Connected][Chave DES] : javax.crypto.spec.SecretKeySpec@1866a
+[26/04/2016 - 14:49:50][ClienteInterface - Metodo Connected][Ze]Você está conectado no chat!
+[26/04/2016 - 14:49:50][ClienteInterface - Metodo Connected]***FIM****
+[26/04/2016 - 14:49:50][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[26/04/2016 - 14:49:50][ClienteInterface - Metodo refreshOnlines]Usuario : Ze
+[26/04/2016 - 14:49:50][ClienteInterface - Metodo refreshOnlines]Usuarios : [Ze]
+[26/04/2016 - 14:49:50][ClienteInterface - Metodo refreshOnlines]***FIM***
+[26/04/2016 - 14:50:14][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[26/04/2016 - 14:50:14][ClienteInterface - Metodo refreshOnlines]Usuario : Ze
+[26/04/2016 - 14:50:14][ClienteInterface - Metodo refreshOnlines]Usuarios : [dader, Ze]
+[26/04/2016 - 14:50:14][ClienteInterface - Metodo refreshOnlines]***FIM***
+[26/04/2016 - 14:50:24][ClienteInterface - Metodo receive]****INICIO***
+[26/04/2016 - 14:50:24][ClienteInterface - Metodo receive][Ze][TpCrypt] 2
+[26/04/2016 - 14:50:24][ClienteInterface - Metodo receive[DES]]Resultado : oi
+[26/04/2016 - 14:50:24][ClienteInterface - Metodo receive[DES]]Resultado[toString] : oi
+[26/04/2016 - 14:50:24][ClienteInterface - Metodo receive]****FIM***
+[26/04/2016 - 14:50:45][ClienteInterface - Metodo receive]****INICIO***
+[26/04/2016 - 14:50:45][ClienteInterface - Metodo receive][Ze][TpCrypt] 0
+[26/04/2016 - 14:50:45][ClienteInterface - Metodo receive[noCrypt]][dader] até logo!
+[26/04/2016 - 14:50:45][ClienteInterface - Metodo receive]****FIM***
+[26/04/2016 - 14:50:45][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[26/04/2016 - 14:50:45][ClienteInterface - Metodo refreshOnlines]Usuario : Ze
+[26/04/2016 - 14:50:45][ClienteInterface - Metodo refreshOnlines]Usuarios : [Ze]
+[26/04/2016 - 14:50:45][ClienteInterface - Metodo refreshOnlines]***FIM***
+[26/04/2016 - 14:50:46][ClienteInterface - Metodo formWindowClosed]INICIO
+[26/04/2016 - 14:50:47][ClienteInterface - Metodo Disconnected[DES]]***Inicio****
+[26/04/2016 - 14:50:47][ClienteInterface - Metodo Disconnected[DES]][Ze]Texto : null
+[26/04/2016 - 14:50:47][ClienteInterface - Metodo Disconnected[DES]][Ze]***FIM***
+[26/04/2016 - 14:50:47][ClienteInterface - Metodo formWindowClosed][Desconectando]FIM disconnected

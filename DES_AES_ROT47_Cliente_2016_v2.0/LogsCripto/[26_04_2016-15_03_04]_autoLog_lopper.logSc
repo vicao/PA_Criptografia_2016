@@ -1,0 +1,40 @@
+[26/04/2016 - 15:04:25][ClienteInterface - Metodo Connected]***Inicio****
+[26/04/2016 - 15:04:25][ClienteInterface - Metodo Connected][lopper]Chave DES gerada : javax.crypto.spec.SecretKeySpec@fffe78d0
+[26/04/2016 - 15:04:25][ClienteInterface - Metodo Connected][lopper]isIsGenaratedKey : false
+[26/04/2016 - 15:04:25][ClienteInterface - Metodo Connected][lopper][TpCrypt] 2
+[26/04/2016 - 15:04:25][ClienteInterface - Metodo Connected][lopper][TpCrypt] 2
+[26/04/2016 - 15:04:25][ClienteInterface - Metodo Connected][Chave DES] : javax.crypto.spec.SecretKeySpec@fffe78d0
+[26/04/2016 - 15:04:26][ClienteInterface - Metodo Connected][lopper]Você está conectado no chat!
+[26/04/2016 - 15:04:26][ClienteInterface - Metodo Connected]***FIM****
+[26/04/2016 - 15:04:26][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[26/04/2016 - 15:04:26][ClienteInterface - Metodo refreshOnlines]Usuario : lopper
+[26/04/2016 - 15:04:26][ClienteInterface - Metodo refreshOnlines]Usuarios : [lopper, raz]
+[26/04/2016 - 15:04:26][ClienteInterface - Metodo refreshOnlines]***FIM***
+[26/04/2016 - 15:04:33][ClienteInterface - Metodo receive]****INICIO***
+[26/04/2016 - 15:04:33][ClienteInterface - Metodo receive][lopper][TpCrypt] 2
+[26/04/2016 - 15:03:04][Exception]descriptar : Given final block not properly padded
+[26/04/2016 - 15:04:33][ClienteInterface - Metodo receive[DES]]Resultado : 
+[26/04/2016 - 15:04:33][ClienteInterface - Metodo receive[DES]]Resultado[toString] : 
+[26/04/2016 - 15:04:33][ClienteInterface - Metodo receive]****FIM***
+[26/04/2016 - 15:04:38][ClienteInterface - Metodo btnEnviar[TpCrypt]]tpCrypt : 2
+[26/04/2016 - 15:04:38][ClienteInterface - Metodo btnEnviar[TpCrypt]]this.tpCrypt : 2
+[26/04/2016 - 15:04:38][ClienteInterface - Metodo btnEnviar][lopper]isConnected : true
+[26/04/2016 - 15:04:38][ClienteInterface - Metodo criptografar] Texto : oi
+[26/04/2016 - 15:04:38][ClienteInterface - Metodo criptografar[DES]][lopper]Texto Claro : oi
+[26/04/2016 - 15:04:38][ClienteInterface - Metodo criptografar[DES]][lopper]ChavesDES : javax.crypto.spec.SecretKeySpec@fffe78d0
+Texto Claro : oi
+Texto Encriptado : [B@7080ea
+[26/04/2016 - 15:04:38][ClienteInterface - Metodo criptografar[DES]] aux : [B@7080ea
+|*******************************************|
+[26/04/2016 - 15:04:38][[btnEnviarActionPerformed]]ChaveDES : javax.crypto.spec.SecretKeySpec@fffe78d0
+[26/04/2016 - 15:04:38][[btnEnviarActionPerformed]][message]ChaveDES : null
+[26/04/2016 - 15:04:38][[btnEnviarActionPerformed]]TextoClaro : oi
+[26/04/2016 - 15:04:38][[btnEnviarActionPerformed]]Textocriptofrado : [B@7080ea
+[26/04/2016 - 15:03:04][Exception]descriptar : Given final block not properly padded
+[26/04/2016 - 15:04:38][[btnEnviarActionPerformed]]TextoDescriptografado : 
+|*******************************************|
+[26/04/2016 - 15:04:40][ClienteInterface - Metodo formWindowClosed]INICIO
+[26/04/2016 - 15:04:41][ClienteInterface - Metodo Disconnected[DES]]***Inicio****
+[26/04/2016 - 15:04:41][ClienteInterface - Metodo Disconnected[DES]][lopper]Texto : [B@7080ea
+[26/04/2016 - 15:04:41][ClienteInterface - Metodo Disconnected[DES]][lopper]***FIM***
+[26/04/2016 - 15:04:41][ClienteInterface - Metodo formWindowClosed][Desconectando]FIM disconnected

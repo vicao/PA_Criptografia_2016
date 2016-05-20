@@ -1,0 +1,43 @@
+[20/05/2016 - 15:38:53][ClienteInterface - Metodo Connected]***Inicio****
+[20/05/2016 - 15:38:53][ClienteInterface - Metodo Connected][flash]Chave DES gerada : javax.crypto.spec.SecretKeySpec@fffe7859
+[20/05/2016 - 15:38:53][ClienteInterface - Metodo Connected][flash]isIsGenaratedKey : false
+[20/05/2016 - 15:38:53][ClienteInterface - Metodo Connected][flash][TpCrypt] 3
+[20/05/2016 - 15:38:53][ClienteInterface - Metodo Connected][flash][TpCrypt] 3
+[20/05/2016 - 15:38:53][ClienteInterface - Metodo Connected][Chave DES] : javax.crypto.spec.SecretKeySpec@fffe7859
+[20/05/2016 - 15:38:54][ClienteInterface - Metodo Connected][flash]Você está conectado no chat!
+[20/05/2016 - 15:38:54][ClienteInterface - Metodo Connected]***FIM****
+[20/05/2016 - 15:38:54][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[20/05/2016 - 15:38:54][ClienteInterface - Metodo refreshOnlines]Usuario : flash
+[20/05/2016 - 15:38:54][ClienteInterface - Metodo refreshOnlines]Usuarios : [asdf, flash]
+[20/05/2016 - 15:38:54][ClienteInterface - Metodo refreshOnlines]***FIM***
+[20/05/2016 - 15:38:59][ClienteInterface - Metodo btnEnviar[TpCrypt]]tpCrypt : 3
+[20/05/2016 - 15:38:59][ClienteInterface - Metodo btnEnviar[TpCrypt]]this.tpCrypt : 3
+[20/05/2016 - 15:38:59][ClienteInterface - Metodo btnEnviar][flash]isConnected : true
+[20/05/2016 - 15:38:59][ClienteInterface - Metodo criptografar] Texto : teste
+[20/05/2016 - 15:38:59][ClienteInterface - Metodo criptografar[DES]][flash]Texto Claro : teste
+[20/05/2016 - 15:38:59][ClienteInterface - Metodo criptografar[DES]][flash]ChavesDES : j9aKqwHH9Pc=
+[20/05/2016 - 15:38:39][Exception][encryptCBC] -null
+[20/05/2016 - 15:38:59][ClienteInterface - Metodo criptografar[DES]] aux : null
+|*******************************************|
+[20/05/2016 - 15:38:59][[btnEnviarActionPerformed]][ChaveDES] : j9aKqwHH9Pc=
+[20/05/2016 - 15:38:59][[btnEnviarActionPerformed]]TextoClaro : teste
+[20/05/2016 - 15:38:59][[btnEnviarActionPerformed]]Textocriptofrado : null
+[20/05/2016 - 15:38:39][DESPaddingCBCDecrypter][Exception]descriptar : No installed provider supports this key: (null)
+[20/05/2016 - 15:39:00][[btnEnviarActionPerformed]]TextoDescriptografado : 
+|*******************************************|
+[20/05/2016 - 15:39:03][ClienteInterface - Metodo receive]****INICIO***
+[20/05/2016 - 15:39:03][ClienteInterface - Metodo receive][flash][TpCrypt] 3
+[20/05/2016 - 15:39:03][ClienteInterface - Metodo receive]****FIM***
+[20/05/2016 - 15:39:08][ClienteInterface - Metodo receive]****INICIO***
+[20/05/2016 - 15:39:08][ClienteInterface - Metodo receive][flash][TpCrypt] 0
+[20/05/2016 - 15:39:08][ClienteInterface - Metodo ExibeMsg[noCrypt]][flash]
+[20/05/2016 - 15:39:08][ClienteInterface - Metodo receive]****FIM***
+[20/05/2016 - 15:39:08][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[20/05/2016 - 15:39:08][ClienteInterface - Metodo refreshOnlines]Usuario : flash
+[20/05/2016 - 15:39:08][ClienteInterface - Metodo refreshOnlines]Usuarios : [flash]
+[20/05/2016 - 15:39:08][ClienteInterface - Metodo refreshOnlines]***FIM***
+[20/05/2016 - 15:39:11][ClienteInterface - Metodo Disconnected[DES]]***Inicio****
+[20/05/2016 - 15:39:11][ClienteInterface - Metodo Disconnected[DES]][flash]Texto : null
+[20/05/2016 - 15:39:11][ClienteInterface - Metodo Disconnected[DES]][flash]***FIM***
+[20/05/2016 - 15:39:14][ClienteInterface - Metodo formWindowClosed]INICIO
+[20/05/2016 - 15:39:14][ClienteInterface - Metodo formWindowClosed]FIM ELSE

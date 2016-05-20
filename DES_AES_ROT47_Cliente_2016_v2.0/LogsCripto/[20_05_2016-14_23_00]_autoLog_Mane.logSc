@@ -1,0 +1,35 @@
+[20/05/2016 - 14:23:14][ClienteInterface - Metodo Connected]***Inicio****
+[20/05/2016 - 14:23:14][ClienteInterface - Metodo Connected][Mane]Chave DES gerada : javax.crypto.spec.SecretKeySpec@186f3
+[20/05/2016 - 14:23:14][ClienteInterface - Metodo Connected][Mane]isIsGenaratedKey : false
+[20/05/2016 - 14:23:14][ClienteInterface - Metodo Connected][Mane][TpCrypt] 3
+[20/05/2016 - 14:23:14][ClienteInterface - Metodo Connected][Mane][TpCrypt] 3
+[20/05/2016 - 14:23:14][ClienteInterface - Metodo Connected][Chave DES] : javax.crypto.spec.SecretKeySpec@186f3
+[20/05/2016 - 14:23:16][ClienteInterface - Metodo Connected][Mane]Você está conectado no chat!
+[20/05/2016 - 14:23:16][ClienteInterface - Metodo Connected]***FIM****
+[20/05/2016 - 14:23:16][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[20/05/2016 - 14:23:16][ClienteInterface - Metodo refreshOnlines]Usuario : Mane
+[20/05/2016 - 14:23:16][ClienteInterface - Metodo refreshOnlines]Usuarios : [Zenicolau, Mane]
+[20/05/2016 - 14:23:16][ClienteInterface - Metodo refreshOnlines]***FIM***
+[20/05/2016 - 14:23:19][ClienteInterface - Metodo btnEnviar[TpCrypt]]tpCrypt : 3
+[20/05/2016 - 14:23:19][ClienteInterface - Metodo btnEnviar[TpCrypt]]this.tpCrypt : 3
+[20/05/2016 - 14:23:19][ClienteInterface - Metodo btnEnviar][Mane]isConnected : true
+[20/05/2016 - 14:23:19][ClienteInterface - Metodo criptografar] Texto : oi
+[20/05/2016 - 14:23:19][ClienteInterface - Metodo criptografar[DES]][Mane]Texto Claro : oi
+[20/05/2016 - 14:23:19][ClienteInterface - Metodo criptografar[DES]][Mane]ChavesDES : E2vWSSAqGQE=
+[20/05/2016 - 14:23:00][Exception][encryptCBC]descriptar : null
+[20/05/2016 - 14:23:19][ClienteInterface - Metodo criptografar[DES]] aux : null
+|*******************************************|
+[20/05/2016 - 14:23:19][[btnEnviarActionPerformed]][ChaveDES] : E2vWSSAqGQE=
+[20/05/2016 - 14:23:19][[btnEnviarActionPerformed]]TextoClaro : oi
+[20/05/2016 - 14:23:19][[btnEnviarActionPerformed]]Textocriptofrado : null
+[20/05/2016 - 14:23:00][Exception]descriptar : No installed provider supports this key: (null)
+[20/05/2016 - 14:23:19][[btnEnviarActionPerformed]]TextoDescriptografado : 
+|*******************************************|
+[20/05/2016 - 14:23:27][ClienteInterface - Metodo receive]****INICIO***
+[20/05/2016 - 14:23:27][ClienteInterface - Metodo receive][Mane][TpCrypt] 3
+[20/05/2016 - 14:23:27][ClienteInterface - Metodo receive]****FIM***
+[20/05/2016 - 14:23:32][ClienteInterface - Metodo Disconnected[DES]]***Inicio****
+[20/05/2016 - 14:23:32][ClienteInterface - Metodo Disconnected[DES]][Mane]Texto : null
+[20/05/2016 - 14:23:32][ClienteInterface - Metodo Disconnected[DES]][Mane]***FIM***
+[20/05/2016 - 14:23:36][ClienteInterface - Metodo formWindowClosed]INICIO
+[20/05/2016 - 14:23:36][ClienteInterface - Metodo formWindowClosed]FIM ELSE

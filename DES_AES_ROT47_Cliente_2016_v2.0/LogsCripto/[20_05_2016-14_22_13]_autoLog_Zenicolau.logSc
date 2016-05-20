@@ -1,0 +1,47 @@
+[20/05/2016 - 14:22:34][ClienteInterface - Metodo Connected]***Inicio****
+[20/05/2016 - 14:22:34][ClienteInterface - Metodo Connected][Zenicolau]Chave DES gerada : javax.crypto.spec.SecretKeySpec@186f3
+[20/05/2016 - 14:22:34][ClienteInterface - Metodo Connected][Zenicolau]isIsGenaratedKey : true
+[20/05/2016 - 14:22:34][ClienteInterface - Metodo Connected][Zenicolau][TpCrypt] 3
+[20/05/2016 - 14:22:34][ClienteInterface - Metodo Connected][Zenicolau][TpCrypt] 3
+[20/05/2016 - 14:22:34][ClienteInterface - Metodo Connected][Chave DES] : javax.crypto.spec.SecretKeySpec@186f3
+[20/05/2016 - 14:22:35][ClienteInterface - Metodo Connected][Zenicolau]Você está conectado no chat!
+[20/05/2016 - 14:22:35][ClienteInterface - Metodo Connected]***FIM****
+[20/05/2016 - 14:22:35][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[20/05/2016 - 14:22:35][ClienteInterface - Metodo refreshOnlines]Usuario : Zenicolau
+[20/05/2016 - 14:22:35][ClienteInterface - Metodo refreshOnlines]Usuarios : [Zenicolau]
+[20/05/2016 - 14:22:35][ClienteInterface - Metodo refreshOnlines]***FIM***
+[20/05/2016 - 14:23:14][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[20/05/2016 - 14:23:14][ClienteInterface - Metodo refreshOnlines]Usuario : Zenicolau
+[20/05/2016 - 14:23:14][ClienteInterface - Metodo refreshOnlines]Usuarios : [Zenicolau, Mane]
+[20/05/2016 - 14:23:14][ClienteInterface - Metodo refreshOnlines]***FIM***
+[20/05/2016 - 14:23:19][ClienteInterface - Metodo receive]****INICIO***
+[20/05/2016 - 14:23:19][ClienteInterface - Metodo receive][Zenicolau][TpCrypt] 3
+[20/05/2016 - 14:23:19][ClienteInterface - Metodo receive]****FIM***
+[20/05/2016 - 14:23:27][ClienteInterface - Metodo btnEnviar[TpCrypt]]tpCrypt : 3
+[20/05/2016 - 14:23:27][ClienteInterface - Metodo btnEnviar[TpCrypt]]this.tpCrypt : 3
+[20/05/2016 - 14:23:27][ClienteInterface - Metodo btnEnviar][Zenicolau]isConnected : true
+[20/05/2016 - 14:23:27][ClienteInterface - Metodo criptografar] Texto : ola
+[20/05/2016 - 14:23:27][ClienteInterface - Metodo criptografar[DES]][Zenicolau]Texto Claro : ola
+[20/05/2016 - 14:23:27][ClienteInterface - Metodo criptografar[DES]][Zenicolau]ChavesDES : E2vWSSAqGQE=
+[20/05/2016 - 14:22:13][Exception][encryptCBC]descriptar : null
+[20/05/2016 - 14:23:27][ClienteInterface - Metodo criptografar[DES]] aux : null
+|*******************************************|
+[20/05/2016 - 14:23:27][[btnEnviarActionPerformed]][ChaveDES] : E2vWSSAqGQE=
+[20/05/2016 - 14:23:27][[btnEnviarActionPerformed]]TextoClaro : ola
+[20/05/2016 - 14:23:27][[btnEnviarActionPerformed]]Textocriptofrado : null
+[20/05/2016 - 14:22:13][Exception]descriptar : No installed provider supports this key: (null)
+[20/05/2016 - 14:23:27][[btnEnviarActionPerformed]]TextoDescriptografado : 
+|*******************************************|
+[20/05/2016 - 14:23:37][ClienteInterface - Metodo receive]****INICIO***
+[20/05/2016 - 14:23:37][ClienteInterface - Metodo receive][Zenicolau][TpCrypt] 0
+[20/05/2016 - 14:23:37][ClienteInterface - Metodo ExibeMsg[noCrypt]][Zenicolau]
+[20/05/2016 - 14:23:37][ClienteInterface - Metodo receive]****FIM***
+[20/05/2016 - 14:23:37][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[20/05/2016 - 14:23:37][ClienteInterface - Metodo refreshOnlines]Usuario : Zenicolau
+[20/05/2016 - 14:23:37][ClienteInterface - Metodo refreshOnlines]Usuarios : [Zenicolau]
+[20/05/2016 - 14:23:37][ClienteInterface - Metodo refreshOnlines]***FIM***
+[20/05/2016 - 14:23:39][ClienteInterface - Metodo formWindowClosed]INICIO
+[20/05/2016 - 14:23:40][ClienteInterface - Metodo Disconnected[DES]]***Inicio****
+[20/05/2016 - 14:23:40][ClienteInterface - Metodo Disconnected[DES]][Zenicolau]Texto : null
+[20/05/2016 - 14:23:40][ClienteInterface - Metodo Disconnected[DES]][Zenicolau]***FIM***
+[20/05/2016 - 14:23:40][ClienteInterface - Metodo formWindowClosed][Desconectando]FIM disconnected

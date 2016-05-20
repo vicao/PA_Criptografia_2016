@@ -1,0 +1,59 @@
+[20/05/2016 - 12:09:46][ClienteInterface - Metodo Connected][Olov]Você está conectado no chat!
+[20/05/2016 - 12:09:46][ClienteInterface - Metodo Connected]***FIM****
+[20/05/2016 - 12:09:46][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[20/05/2016 - 12:09:46][ClienteInterface - Metodo refreshOnlines]Usuario : Olov
+[20/05/2016 - 12:09:46][ClienteInterface - Metodo refreshOnlines]Usuarios : [Olov]
+[20/05/2016 - 12:09:46][ClienteInterface - Metodo refreshOnlines]***FIM***
+[20/05/2016 - 12:10:08][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[20/05/2016 - 12:10:08][ClienteInterface - Metodo refreshOnlines]Usuario : Olov
+[20/05/2016 - 12:10:08][ClienteInterface - Metodo refreshOnlines]Usuarios : [Olov, Mane]
+[20/05/2016 - 12:10:08][ClienteInterface - Metodo refreshOnlines]***FIM***
+[20/05/2016 - 12:10:17][ClienteInterface - Metodo receive]****INICIO***
+[20/05/2016 - 12:10:17][ClienteInterface - Metodo receive][Olov][TpCrypt] 2
+[20/05/2016 - 12:09:31][Exception]descriptar : null
+[20_05_2016-12_09_32][Exception]descriptar : null
+[20/05/2016 - 12:10:17][ClienteInterface - Metodo ExibeMsg][Exception][DES]descriptar : null
+[20/05/2016 - 12:10:17][ClienteInterface - Metodo ExibeMsg[DES]]Resultado : 
+[20/05/2016 - 12:10:17][ClienteInterface - Metodo ExibeMsg[DES]]Resultado[toString] : 
+[20/05/2016 - 12:10:17][ClienteInterface - Metodo receive]****FIM***
+[20/05/2016 - 12:10:25][ClienteInterface - Metodo btnEnviar[TpCrypt]]tpCrypt : 2
+[20/05/2016 - 12:10:25][ClienteInterface - Metodo btnEnviar[TpCrypt]]this.tpCrypt : 2
+[20/05/2016 - 12:10:25][ClienteInterface - Metodo btnEnviar][Olov]isConnected : true
+[20/05/2016 - 12:10:25][ClienteInterface - Metodo criptografar] Texto : teste
+[20/05/2016 - 12:10:25][ClienteInterface - Metodo criptografar[DES]][Olov]Texto Claro : teste
+[20/05/2016 - 12:10:25][ClienteInterface - Metodo criptografar[DES]][Olov]ChavesDES : qBPmAvfWIEY=
+[encrypt]iv : [B@100d977
+[20/05/2016 - 12:10:25][ClienteInterface - Metodo criptografar[DES]] aux : [B@1a3ade2
+|*******************************************|
+[20/05/2016 - 12:10:25][[btnEnviarActionPerformed]][ChaveDES] : qBPmAvfWIEY=
+[20/05/2016 - 12:10:25][[btnEnviarActionPerformed]]TextoClaro : teste
+[20/05/2016 - 12:10:25][[btnEnviarActionPerformed]]Textocriptofrado : [B@1a3ade2
+[20/05/2016 - 12:09:31][Exception]descriptar : No installed provider supports this key: (null)
+[20/05/2016 - 12:10:25][[btnEnviarActionPerformed]]TextoDescriptografado : 
+|*******************************************|
+[20/05/2016 - 12:10:32][ClienteInterface - Metodo receive]****INICIO***
+[20/05/2016 - 12:10:32][ClienteInterface - Metodo receive][Olov][TpCrypt] 2
+[decrypt]iv : [B@152a8f2
+[20/05/2016 - 12:10:32][ClienteInterface - Metodo ExibeMsg[DES]]Resultado : teste
+[20/05/2016 - 12:10:32][ClienteInterface - Metodo ExibeMsg[DES]]Resultado[toString] : teste
+[20/05/2016 - 12:10:32][ClienteInterface - Metodo receive]****FIM***
+[20/05/2016 - 12:10:36][ClienteInterface - Metodo btnEnviar[TpCrypt]]tpCrypt : 2
+[20/05/2016 - 12:10:36][ClienteInterface - Metodo btnEnviar[TpCrypt]]this.tpCrypt : 2
+[20/05/2016 - 12:10:36][ClienteInterface - Metodo btnEnviar][Olov]isConnected : true
+[20/05/2016 - 12:10:36][ClienteInterface - Metodo criptografar] Texto : mmmmmm
+[20/05/2016 - 12:10:36][ClienteInterface - Metodo criptografar[DES]][Olov]Texto Claro : mmmmmm
+[20/05/2016 - 12:10:36][ClienteInterface - Metodo criptografar[DES]][Olov]ChavesDES : qBPmAvfWIEY=
+[encrypt]iv : [B@68a2a7
+[20/05/2016 - 12:10:36][ClienteInterface - Metodo criptografar[DES]] aux : [B@1b09c30
+|*******************************************|
+[20/05/2016 - 12:10:36][[btnEnviarActionPerformed]][ChaveDES] : qBPmAvfWIEY=
+[20/05/2016 - 12:10:36][[btnEnviarActionPerformed]]TextoClaro : mmmmmm
+[20/05/2016 - 12:10:36][[btnEnviarActionPerformed]]Textocriptofrado : [B@1b09c30
+[20/05/2016 - 12:09:31][Exception]descriptar : No installed provider supports this key: (null)
+[20/05/2016 - 12:10:36][[btnEnviarActionPerformed]]TextoDescriptografado : 
+|*******************************************|
+[20/05/2016 - 12:10:47][ClienteInterface - Metodo formWindowClosed]INICIO
+[20/05/2016 - 12:10:48][ClienteInterface - Metodo Disconnected[DES]]***Inicio****
+[20/05/2016 - 12:10:48][ClienteInterface - Metodo Disconnected[DES]][Olov]Texto : [B@1b09c30
+[20/05/2016 - 12:10:48][ClienteInterface - Metodo Disconnected[DES]][Olov]***FIM***
+[20/05/2016 - 12:10:48][ClienteInterface - Metodo formWindowClosed][Desconectando]FIM disconnected

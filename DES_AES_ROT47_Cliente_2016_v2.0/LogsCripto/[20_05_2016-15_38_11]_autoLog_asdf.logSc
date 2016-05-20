@@ -1,0 +1,39 @@
+[20/05/2016 - 15:38:30][ClienteInterface - Metodo Connected]***Inicio****
+[20/05/2016 - 15:38:30][ClienteInterface - Metodo Connected][asdf]Chave DES gerada : javax.crypto.spec.SecretKeySpec@fffe7859
+[20/05/2016 - 15:38:30][ClienteInterface - Metodo Connected][asdf]isIsGenaratedKey : true
+[20/05/2016 - 15:38:30][ClienteInterface - Metodo Connected][asdf][TpCrypt] 3
+[20/05/2016 - 15:38:30][ClienteInterface - Metodo Connected][asdf][TpCrypt] 3
+[20/05/2016 - 15:38:30][ClienteInterface - Metodo Connected][Chave DES] : javax.crypto.spec.SecretKeySpec@fffe7859
+[20/05/2016 - 15:38:31][ClienteInterface - Metodo Connected][asdf]Você está conectado no chat!
+[20/05/2016 - 15:38:31][ClienteInterface - Metodo Connected]***FIM****
+[20/05/2016 - 15:38:31][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[20/05/2016 - 15:38:31][ClienteInterface - Metodo refreshOnlines]Usuario : asdf
+[20/05/2016 - 15:38:31][ClienteInterface - Metodo refreshOnlines]Usuarios : [asdf]
+[20/05/2016 - 15:38:31][ClienteInterface - Metodo refreshOnlines]***FIM***
+[20/05/2016 - 15:38:53][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[20/05/2016 - 15:38:53][ClienteInterface - Metodo refreshOnlines]Usuario : asdf
+[20/05/2016 - 15:38:53][ClienteInterface - Metodo refreshOnlines]Usuarios : [asdf, flash]
+[20/05/2016 - 15:38:53][ClienteInterface - Metodo refreshOnlines]***FIM***
+[20/05/2016 - 15:39:00][ClienteInterface - Metodo receive]****INICIO***
+[20/05/2016 - 15:39:00][ClienteInterface - Metodo receive][asdf][TpCrypt] 3
+[20/05/2016 - 15:39:00][ClienteInterface - Metodo receive]****FIM***
+[20/05/2016 - 15:39:02][ClienteInterface - Metodo btnEnviar[TpCrypt]]tpCrypt : 3
+[20/05/2016 - 15:39:02][ClienteInterface - Metodo btnEnviar[TpCrypt]]this.tpCrypt : 3
+[20/05/2016 - 15:39:02][ClienteInterface - Metodo btnEnviar][asdf]isConnected : true
+[20/05/2016 - 15:39:02][ClienteInterface - Metodo criptografar] Texto : oi
+[20/05/2016 - 15:39:02][ClienteInterface - Metodo criptografar[DES]][asdf]Texto Claro : oi
+[20/05/2016 - 15:39:02][ClienteInterface - Metodo criptografar[DES]][asdf]ChavesDES : j9aKqwHH9Pc=
+[20/05/2016 - 15:38:11][Exception][encryptCBC] -null
+[20/05/2016 - 15:39:02][ClienteInterface - Metodo criptografar[DES]] aux : null
+|*******************************************|
+[20/05/2016 - 15:39:02][[btnEnviarActionPerformed]][ChaveDES] : j9aKqwHH9Pc=
+[20/05/2016 - 15:39:02][[btnEnviarActionPerformed]]TextoClaro : oi
+[20/05/2016 - 15:39:02][[btnEnviarActionPerformed]]Textocriptofrado : null
+[20/05/2016 - 15:38:11][DESPaddingCBCDecrypter][Exception]descriptar : No installed provider supports this key: (null)
+[20/05/2016 - 15:39:03][[btnEnviarActionPerformed]]TextoDescriptografado : 
+|*******************************************|
+[20/05/2016 - 15:39:05][ClienteInterface - Metodo Disconnected[DES]]***Inicio****
+[20/05/2016 - 15:39:05][ClienteInterface - Metodo Disconnected[DES]][asdf]Texto : null
+[20/05/2016 - 15:39:05][ClienteInterface - Metodo Disconnected[DES]][asdf]***FIM***
+[20/05/2016 - 15:39:08][ClienteInterface - Metodo formWindowClosed]INICIO
+[20/05/2016 - 15:39:08][ClienteInterface - Metodo formWindowClosed]FIM ELSE

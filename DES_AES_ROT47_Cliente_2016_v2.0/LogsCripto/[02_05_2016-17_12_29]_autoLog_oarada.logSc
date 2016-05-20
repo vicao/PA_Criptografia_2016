@@ -1,0 +1,80 @@
+[02/05/2016 - 17:13:05][ClienteInterface - Metodo Connected]***Inicio****
+[02/05/2016 - 17:13:05][ClienteInterface - Metodo Connected][oarada]Chave DES gerada : javax.crypto.spec.SecretKeySpec@181cf
+[02/05/2016 - 17:13:05][ClienteInterface - Metodo Connected][oarada]isIsGenaratedKey : false
+[02/05/2016 - 17:13:05][ClienteInterface - Metodo Connected][oarada][TpCrypt] 2
+[02/05/2016 - 17:13:05][ClienteInterface - Metodo Connected][oarada][TpCrypt] 2
+[02/05/2016 - 17:13:05][ClienteInterface - Metodo Connected][Chave DES] : javax.crypto.spec.SecretKeySpec@181cf
+[02/05/2016 - 17:13:06][ClienteInterface - Metodo Connected][oarada]Você está conectado no chat!
+[02/05/2016 - 17:13:06][ClienteInterface - Metodo Connected]***FIM****
+[02/05/2016 - 17:13:06][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[02/05/2016 - 17:13:06][ClienteInterface - Metodo refreshOnlines]Usuario : oarada
+[02/05/2016 - 17:13:06][ClienteInterface - Metodo refreshOnlines]Usuarios : [oarada, jaum]
+[02/05/2016 - 17:13:06][ClienteInterface - Metodo refreshOnlines]***FIM***
+[02/05/2016 - 17:13:18][ClienteInterface - Metodo receive]****INICIO***
+[02/05/2016 - 17:13:18][ClienteInterface - Metodo receive][oarada][TpCrypt] 2
+[02/05/2016 - 17:12:29][Exception]descriptar : Null input buffer
+[02/05/2016 - 17:13:19][ClienteInterface - Metodo ExibeMsg[DES]]Resultado : 
+[02/05/2016 - 17:13:19][ClienteInterface - Metodo ExibeMsg[DES]]Resultado[toString] : 
+[02/05/2016 - 17:13:19][ClienteInterface - Metodo receive]****FIM***
+[02/05/2016 - 17:13:30][ClienteInterface - Metodo btnEnviar[TpCrypt]]tpCrypt : 2
+[02/05/2016 - 17:13:30][ClienteInterface - Metodo btnEnviar[TpCrypt]]this.tpCrypt : 2
+[02/05/2016 - 17:13:30][ClienteInterface - Metodo btnEnviar][oarada]isConnected : true
+[02/05/2016 - 17:13:30][ClienteInterface - Metodo criptografar] Texto : oi
+[02/05/2016 - 17:13:30][ClienteInterface - Metodo criptografar[DES]][oarada]Texto Claro : oi
+[02/05/2016 - 17:13:30][ClienteInterface - Metodo criptografar[DES]][oarada]ChavesDES : javax.crypto.spec.SecretKeySpec@181cf
+Texto Claro : oi
+Texto Encriptado : [B@1c53867
+[02/05/2016 - 17:13:30][ClienteInterface - Metodo criptografar[DES]] aux : [B@1c53867
+|*******************************************|
+[02/05/2016 - 17:13:30][[btnEnviarActionPerformed]]ChaveDES : javax.crypto.spec.SecretKeySpec@181cf
+[02/05/2016 - 17:13:30][[btnEnviarActionPerformed]][message]ChaveDES : null
+[02/05/2016 - 17:13:30][[btnEnviarActionPerformed]]TextoClaro : oi
+[02/05/2016 - 17:13:30][[btnEnviarActionPerformed]]Textocriptofrado : [B@1c53867
+[02/05/2016 - 17:12:29][Exception]descriptar : Given final block not properly padded
+[02/05/2016 - 17:13:30][[btnEnviarActionPerformed]]TextoDescriptografado : 
+|*******************************************|
+[02/05/2016 - 17:13:39][ClienteInterface - Metodo receive]****INICIO***
+[02/05/2016 - 17:13:39][ClienteInterface - Metodo receive][oarada][TpCrypt] 2
+[02/05/2016 - 17:13:39][ClienteInterface - Metodo ExibeMsg[DES]]Resultado : oi
+[02/05/2016 - 17:13:39][ClienteInterface - Metodo ExibeMsg[DES]]Resultado[toString] : oi
+[02/05/2016 - 17:13:39][ClienteInterface - Metodo receive]****FIM***
+[02/05/2016 - 17:14:09][ClienteInterface - Metodo receive]****INICIO***
+[02/05/2016 - 17:14:09][ClienteInterface - Metodo receive][oarada][TpCrypt] 2
+[02/05/2016 - 17:14:09][ClienteInterface - Metodo ExibeMsg[DES]]Resultado : oi
+[02/05/2016 - 17:14:09][ClienteInterface - Metodo ExibeMsg[DES]]Resultado[toString] : oi
+[02/05/2016 - 17:14:09][ClienteInterface - Metodo receive]****FIM***
+[02/05/2016 - 17:14:12][ClienteInterface - Metodo btnEnviar[TpCrypt]]tpCrypt : 2
+[02/05/2016 - 17:14:12][ClienteInterface - Metodo btnEnviar[TpCrypt]]this.tpCrypt : 2
+[02/05/2016 - 17:14:12][ClienteInterface - Metodo btnEnviar][oarada]isConnected : true
+[02/05/2016 - 17:14:12][ClienteInterface - Metodo criptografar] Texto : da
+[02/05/2016 - 17:14:12][ClienteInterface - Metodo criptografar[DES]][oarada]Texto Claro : da
+[02/05/2016 - 17:14:12][ClienteInterface - Metodo criptografar[DES]][oarada]ChavesDES : javax.crypto.spec.SecretKeySpec@181cf
+Texto Claro : da
+Texto Encriptado : [B@1e9ac81
+[02/05/2016 - 17:14:12][ClienteInterface - Metodo criptografar[DES]] aux : [B@1e9ac81
+|*******************************************|
+[02/05/2016 - 17:14:12][[btnEnviarActionPerformed]]ChaveDES : javax.crypto.spec.SecretKeySpec@181cf
+[02/05/2016 - 17:14:12][[btnEnviarActionPerformed]][message]ChaveDES : null
+[02/05/2016 - 17:14:12][[btnEnviarActionPerformed]]TextoClaro : da
+[02/05/2016 - 17:14:12][[btnEnviarActionPerformed]]Textocriptofrado : [B@1e9ac81
+[02/05/2016 - 17:12:29][Exception]descriptar : Given final block not properly padded
+[02/05/2016 - 17:14:12][[btnEnviarActionPerformed]]TextoDescriptografado : 
+|*******************************************|
+[02/05/2016 - 17:14:29][ClienteInterface - Metodo receive]****INICIO***
+[02/05/2016 - 17:14:29][ClienteInterface - Metodo receive][oarada][TpCrypt] 2
+[02/05/2016 - 17:14:29][ClienteInterface - Metodo ExibeMsg[DES]]Resultado : da
+[02/05/2016 - 17:14:29][ClienteInterface - Metodo ExibeMsg[DES]]Resultado[toString] : da
+[02/05/2016 - 17:14:29][ClienteInterface - Metodo receive]****FIM***
+[02/05/2016 - 17:14:45][ClienteInterface - Metodo receive]****INICIO***
+[02/05/2016 - 17:14:45][ClienteInterface - Metodo receive][oarada][TpCrypt] 0
+[02/05/2016 - 17:14:45][ClienteInterface - Metodo ExibeMsg[noCrypt]][oarada]
+[02/05/2016 - 17:14:45][ClienteInterface - Metodo receive]****FIM***
+[02/05/2016 - 17:14:45][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[02/05/2016 - 17:14:45][ClienteInterface - Metodo refreshOnlines]Usuario : oarada
+[02/05/2016 - 17:14:45][ClienteInterface - Metodo refreshOnlines]Usuarios : [oarada]
+[02/05/2016 - 17:14:45][ClienteInterface - Metodo refreshOnlines]***FIM***
+[02/05/2016 - 17:14:47][ClienteInterface - Metodo Disconnected[DES]]***Inicio****
+[02/05/2016 - 17:14:47][ClienteInterface - Metodo Disconnected[DES]][oarada]Texto : [B@1e9ac81
+[02/05/2016 - 17:14:47][ClienteInterface - Metodo Disconnected[DES]][oarada]***FIM***
+[02/05/2016 - 17:14:48][ClienteInterface - Metodo formWindowClosed]INICIO
+[02/05/2016 - 17:14:48][ClienteInterface - Metodo formWindowClosed]FIM ELSE

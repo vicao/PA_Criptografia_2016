@@ -1,0 +1,33 @@
+[26/04/2016 - 14:50:14][ClienteInterface - Metodo Connected]***Inicio****
+[26/04/2016 - 14:50:14][ClienteInterface - Metodo Connected][dader]Chave DES gerada : javax.crypto.spec.SecretKeySpec@1866a
+[26/04/2016 - 14:50:14][ClienteInterface - Metodo Connected][dader]isIsGenaratedKey : false
+[26/04/2016 - 14:50:14][ClienteInterface - Metodo Connected][dader][TpCrypt] 2
+[26/04/2016 - 14:50:14][ClienteInterface - Metodo Connected][dader][TpCrypt] 2
+[26/04/2016 - 14:50:14][ClienteInterface - Metodo Connected][Chave DES] : javax.crypto.spec.SecretKeySpec@1866a
+[26/04/2016 - 14:50:16][ClienteInterface - Metodo Connected][dader]Você está conectado no chat!
+[26/04/2016 - 14:50:16][ClienteInterface - Metodo Connected]***FIM****
+[26/04/2016 - 14:50:16][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[26/04/2016 - 14:50:16][ClienteInterface - Metodo refreshOnlines]Usuario : dader
+[26/04/2016 - 14:50:16][ClienteInterface - Metodo refreshOnlines]Usuarios : [dader, Ze]
+[26/04/2016 - 14:50:16][ClienteInterface - Metodo refreshOnlines]***FIM***
+[26/04/2016 - 14:50:23][ClienteInterface - Metodo btnEnviar[TpCrypt]]tpCrypt : 2
+[26/04/2016 - 14:50:23][ClienteInterface - Metodo btnEnviar[TpCrypt]]this.tpCrypt : 2
+[26/04/2016 - 14:50:23][ClienteInterface - Metodo btnEnviar][dader]isConnected : true
+[26/04/2016 - 14:50:23][ClienteInterface - Metodo criptografar] Texto : oi
+[26/04/2016 - 14:50:23][ClienteInterface - Metodo criptografar[DES]][dader]Texto Claro : oi
+[26/04/2016 - 14:50:23][ClienteInterface - Metodo criptografar[DES]][dader]ChavesDES : javax.crypto.spec.SecretKeySpec@1866a
+Texto Claro : oi
+Texto Encriptado : [B@1c8101a
+[26/04/2016 - 14:50:24][ClienteInterface - Metodo criptografar[DES]] aux : [B@1c8101a
+|*******************************************|
+[26/04/2016 - 14:50:24][[btnEnviarActionPerformed]]ChaveDES : javax.crypto.spec.SecretKeySpec@1866a
+[26/04/2016 - 14:50:24][[btnEnviarActionPerformed]][message]ChaveDES : null
+[26/04/2016 - 14:50:24][[btnEnviarActionPerformed]]TextoClaro : oi
+[26/04/2016 - 14:50:24][[btnEnviarActionPerformed]]Textocriptofrado : [B@1c8101a
+[26/04/2016 - 14:50:24][[btnEnviarActionPerformed]]TextoDescriptografado : oi
+|*******************************************|
+[26/04/2016 - 14:50:43][ClienteInterface - Metodo Disconnected[DES]]***Inicio****
+[26/04/2016 - 14:50:43][ClienteInterface - Metodo Disconnected[DES]][dader]Texto : [B@1c8101a
+[26/04/2016 - 14:50:43][ClienteInterface - Metodo Disconnected[DES]][dader]***FIM***
+[26/04/2016 - 14:50:45][ClienteInterface - Metodo formWindowClosed]INICIO
+[26/04/2016 - 14:50:45][ClienteInterface - Metodo formWindowClosed]FIM ELSE

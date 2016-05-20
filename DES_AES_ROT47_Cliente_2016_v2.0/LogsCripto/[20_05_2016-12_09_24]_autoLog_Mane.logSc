@@ -1,0 +1,67 @@
+[20/05/2016 - 12:10:08][ClienteInterface - Metodo Connected]***Inicio****
+[20/05/2016 - 12:10:08][ClienteInterface - Metodo Connected][Mane]Chave DES gerada : javax.crypto.spec.SecretKeySpec@1858b
+[20/05/2016 - 12:10:08][ClienteInterface - Metodo Connected][Mane]isIsGenaratedKey : false
+[20/05/2016 - 12:10:08][ClienteInterface - Metodo Connected][Mane][TpCrypt] 2
+[20/05/2016 - 12:10:08][ClienteInterface - Metodo Connected][Mane][TpCrypt] 2
+[20/05/2016 - 12:10:08][ClienteInterface - Metodo Connected][Chave DES] : javax.crypto.spec.SecretKeySpec@1858b
+[20/05/2016 - 12:10:09][ClienteInterface - Metodo Connected][Mane]Você está conectado no chat!
+[20/05/2016 - 12:10:09][ClienteInterface - Metodo Connected]***FIM****
+[20/05/2016 - 12:10:09][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[20/05/2016 - 12:10:09][ClienteInterface - Metodo refreshOnlines]Usuario : Mane
+[20/05/2016 - 12:10:09][ClienteInterface - Metodo refreshOnlines]Usuarios : [Olov, Mane]
+[20/05/2016 - 12:10:09][ClienteInterface - Metodo refreshOnlines]***FIM***
+[20/05/2016 - 12:10:16][ClienteInterface - Metodo btnEnviar[TpCrypt]]tpCrypt : 2
+[20/05/2016 - 12:10:16][ClienteInterface - Metodo btnEnviar[TpCrypt]]this.tpCrypt : 2
+[20/05/2016 - 12:10:16][ClienteInterface - Metodo btnEnviar][Mane]isConnected : true
+[20/05/2016 - 12:10:16][ClienteInterface - Metodo criptografar] Texto : ooiiiiiiii
+[20/05/2016 - 12:10:16][ClienteInterface - Metodo criptografar[DES]][Mane]Texto Claro : ooiiiiiiii
+[20/05/2016 - 12:10:16][ClienteInterface - Metodo criptografar[DES]][Mane]ChavesDES : qBPmAvfWIEY=
+[encrypt]iv : [B@1a0c66a
+[20/05/2016 - 12:10:17][ClienteInterface - Metodo criptografar[DES]] aux : [B@534704
+|*******************************************|
+[20/05/2016 - 12:10:17][[btnEnviarActionPerformed]][ChaveDES] : qBPmAvfWIEY=
+[20/05/2016 - 12:10:17][[btnEnviarActionPerformed]]TextoClaro : ooiiiiiiii
+[20/05/2016 - 12:10:17][[btnEnviarActionPerformed]]Textocriptofrado : [B@534704
+[20/05/2016 - 12:09:24][Exception]descriptar : No installed provider supports this key: (null)
+[20/05/2016 - 12:10:17][[btnEnviarActionPerformed]]TextoDescriptografado : 
+|*******************************************|
+[20/05/2016 - 12:10:25][ClienteInterface - Metodo receive]****INICIO***
+[20/05/2016 - 12:10:25][ClienteInterface - Metodo receive][Mane][TpCrypt] 2
+[decrypt]iv : [B@184cf96
+[20/05/2016 - 12:10:25][ClienteInterface - Metodo ExibeMsg[DES]]Resultado : ooiiiiiiii
+[20/05/2016 - 12:10:25][ClienteInterface - Metodo ExibeMsg[DES]]Resultado[toString] : ooiiiiiiii
+[20/05/2016 - 12:10:25][ClienteInterface - Metodo receive]****FIM***
+[20/05/2016 - 12:10:32][ClienteInterface - Metodo btnEnviar[TpCrypt]]tpCrypt : 2
+[20/05/2016 - 12:10:32][ClienteInterface - Metodo btnEnviar[TpCrypt]]this.tpCrypt : 2
+[20/05/2016 - 12:10:32][ClienteInterface - Metodo btnEnviar][Mane]isConnected : true
+[20/05/2016 - 12:10:32][ClienteInterface - Metodo criptografar] Texto : ze
+[20/05/2016 - 12:10:32][ClienteInterface - Metodo criptografar[DES]][Mane]Texto Claro : ze
+[20/05/2016 - 12:10:32][ClienteInterface - Metodo criptografar[DES]][Mane]ChavesDES : qBPmAvfWIEY=
+[encrypt]iv : [B@17827a2
+[20/05/2016 - 12:10:32][ClienteInterface - Metodo criptografar[DES]] aux : [B@1b6a92b
+|*******************************************|
+[20/05/2016 - 12:10:32][[btnEnviarActionPerformed]][ChaveDES] : qBPmAvfWIEY=
+[20/05/2016 - 12:10:32][[btnEnviarActionPerformed]]TextoClaro : ze
+[20/05/2016 - 12:10:32][[btnEnviarActionPerformed]]Textocriptofrado : [B@1b6a92b
+[20/05/2016 - 12:09:24][Exception]descriptar : No installed provider supports this key: (null)
+[20/05/2016 - 12:10:32][[btnEnviarActionPerformed]]TextoDescriptografado : 
+|*******************************************|
+[20/05/2016 - 12:10:36][ClienteInterface - Metodo receive]****INICIO***
+[20/05/2016 - 12:10:36][ClienteInterface - Metodo receive][Mane][TpCrypt] 2
+[decrypt]iv : [B@1a7bb23
+[20/05/2016 - 12:10:36][ClienteInterface - Metodo ExibeMsg[DES]]Resultado : ze
+[20/05/2016 - 12:10:36][ClienteInterface - Metodo ExibeMsg[DES]]Resultado[toString] : ze
+[20/05/2016 - 12:10:36][ClienteInterface - Metodo receive]****FIM***
+[20/05/2016 - 12:10:44][ClienteInterface - Metodo Disconnected[DES]]***Inicio****
+[20/05/2016 - 12:10:44][ClienteInterface - Metodo Disconnected[DES]][Mane]Texto : [B@1b6a92b
+[20/05/2016 - 12:10:44][ClienteInterface - Metodo Disconnected[DES]][Mane]***FIM***
+[20/05/2016 - 12:10:49][ClienteInterface - Metodo receive]****INICIO***
+[20/05/2016 - 12:10:49][ClienteInterface - Metodo receive][Mane][TpCrypt] 0
+[20/05/2016 - 12:10:49][ClienteInterface - Metodo ExibeMsg[noCrypt]][Mane]
+[20/05/2016 - 12:10:49][ClienteInterface - Metodo receive]****FIM***
+[20/05/2016 - 12:10:49][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[20/05/2016 - 12:10:49][ClienteInterface - Metodo refreshOnlines]Usuario : Mane
+[20/05/2016 - 12:10:49][ClienteInterface - Metodo refreshOnlines]Usuarios : [Mane]
+[20/05/2016 - 12:10:49][ClienteInterface - Metodo refreshOnlines]***FIM***
+[20/05/2016 - 12:10:51][ClienteInterface - Metodo formWindowClosed]INICIO
+[20/05/2016 - 12:10:51][ClienteInterface - Metodo formWindowClosed]FIM ELSE

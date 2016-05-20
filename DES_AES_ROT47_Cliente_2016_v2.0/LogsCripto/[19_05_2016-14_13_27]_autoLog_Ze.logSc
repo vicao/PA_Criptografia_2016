@@ -1,0 +1,8 @@
+Exception in thread "Thread-3" java.lang.NullPointerException
+	at app.frames.ClientInterface.connected(ClientInterface.java:129)
+	at app.frames.ClientInterface.access$000(ClientInterface.java:37)
+	[19/05/2016 - 14:22:16][ClienteInterface - Metodo Disconnected[DES]]***Inicio****
+[19/05/2016 - 14:22:16][ClienteInterface - Metodo Disconnected[DES]][Ze]Texto : null
+[19/05/2016 - 14:22:16][ClienteInterface - Metodo Disconnected[DES]][Ze]***FIM***
+[19/05/2016 - 14:22:17][ClienteInterface - Metodo formWindowClosed]INICIO
+[19/05/2016 - 14:22:17][ClienteInterface - Metodo formWindowClosed]FIM ELSE
