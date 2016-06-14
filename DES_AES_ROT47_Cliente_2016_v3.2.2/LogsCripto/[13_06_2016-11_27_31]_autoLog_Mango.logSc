@@ -1,0 +1,40 @@
+[13/06/2016 - 11:28:42][ClienteInterface - Metodo Connected][Mango]Você está conectado no chat!
+[13/06/2016 - 11:28:42][ClienteInterface - Metodo Connected]***FIM****
+[13/06/2016 - 11:28:42][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[13/06/2016 - 11:28:42][ClienteInterface - Metodo refreshOnlines]Usuario : Mango
+[13/06/2016 - 11:28:42][ClienteInterface - Metodo refreshOnlines]Usuarios : [Mango, dudu]
+[13/06/2016 - 11:28:42][ClienteInterface - Metodo refreshOnlines]***FIM***
+[13/06/2016 - 11:28:50][ClienteInterface - Metodo btnEnviar[TpCrypt]]tpCrypt : 2
+[13/06/2016 - 11:28:50][ClienteInterface - Metodo btnEnviar[TpCrypt]]this.tpCrypt : 2
+[13/06/2016 - 11:28:50][ClienteInterface - Metodo btnEnviar][Mango]isConnected : true
+[13/06/2016 - 11:28:50][ClienteInterface - Metodo criptografar] Texto : oi
+[13/06/2016 - 11:28:50][ClienteInterface - Metodo criptografar[DES]][Mango]Texto Claro : oi
+[13/06/2016 - 11:28:50][ClienteInterface - Metodo criptografar[DES]][Mango]ChavesDES : THqool7+p14=
+[DESPaddingECB]Texto Claro : oi
+[DESPaddingECB]Texto Encriptado : [B@1cbe165
+[13/06/2016 - 11:28:50][ClienteInterface - Metodo criptografar[DES]] aux : [B@1cbe165
+|*******************************************|
+[13/06/2016 - 11:28:50][[btnEnviarActionPerformed]][ChaveDES] : THqool7+p14=
+[13/06/2016 - 11:28:50][[btnEnviarActionPerformed]]TextoDescriptografado : oi
+[13/06/2016 - 11:28:50][[btnEnviarActionPerformed]]TextoClaro : oi
+[13/06/2016 - 11:28:50][[btnEnviarActionPerformed]]Textocriptofrado : [B@1cbe165
+|*******************************************|
+[13/06/2016 - 11:29:36][ClienteInterface - Metodo receive]****INICIO***
+[13/06/2016 - 11:29:36][ClienteInterface - Metodo receive][Mango][TpCrypt] 2
+[13/06/2016 - 11:29:36][ClienteInterface - Metodo ExibeMsg[DES]]Resultado : oi
+[13/06/2016 - 11:29:36][ClienteInterface - Metodo ExibeMsg[DES]]Resultado[toString] : oi
+[13/06/2016 - 11:29:36][ClienteInterface - Metodo receive]****FIM***
+[13/06/2016 - 11:29:36][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[13/06/2016 - 11:29:36][ClienteInterface - Metodo refreshOnlines]Usuario : Mango
+[13/06/2016 - 11:29:36][ClienteInterface - Metodo refreshOnlines]Usuarios : [Mango]
+[13/06/2016 - 11:29:36][ClienteInterface - Metodo refreshOnlines]***FIM***
+[13/06/2016 - 11:29:45][ClienteInterface - Metodo Disconnected[DES]]***Inicio****
+[13/06/2016 - 11:29:45][ClienteInterface - Metodo Disconnected[DES]][Mango]Texto : [B@1cbe165
+[13/06/2016 - 11:29:45][ClienteInterface - Metodo Disconnected[DES]][Mango]***FIM***
+[13/06/2016 - 11:30:00][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[13/06/2016 - 11:30:00][ClienteInterface - Metodo refreshOnlines]Usuario : Mango
+[13/06/2016 - 11:30:00][ClienteInterface - Metodo refreshOnlines]Usuarios : [Mango, Kratos]
+[13/06/2016 - 11:30:00][ClienteInterface - Metodo refreshOnlines]***FIM***
+[antes do if]TpCrypt : 2
+[depois do If]TpCrypt : 2
+[this.message.getTpCrypt()]TpCrypt : 2

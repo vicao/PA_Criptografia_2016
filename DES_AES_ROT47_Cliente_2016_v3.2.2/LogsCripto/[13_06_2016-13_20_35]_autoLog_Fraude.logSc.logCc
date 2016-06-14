@@ -1,0 +1,32 @@
+[13/06/2016 - 13:20:57][ClienteInterface - Metodo Connected]***Inicio****
+[13/06/2016 - 13:20:57][ClienteInterface - Metodo Connected][Fraude]Chave DES gerada : javax.crypto.spec.SecretKeySpec@fffe7fc9
+[13/06/2016 - 13:20:57][ClienteInterface - Metodo Connected][Fraude]isIsGenaratedKey : true
+[13/06/2016 - 13:20:57][ClienteInterface - Metodo Connected][Fraude][TpCrypt] 2
+[13/06/2016 - 13:20:57][ClienteInterface - Metodo Connected][Fraude][TpCrypt] 2
+[13/06/2016 - 13:20:57][ClienteInterface - Metodo Connected][Chave DES] : javax.crypto.spec.SecretKeySpec@fffe7fc9
+[13/06/2016 - 13:20:58][ClienteInterface - Metodo Connected][Fraude]Você está conectado no chat!
+[13/06/2016 - 13:20:58][ClienteInterface - Metodo Connected]***FIM****
+[13/06/2016 - 13:20:58][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[13/06/2016 - 13:20:58][ClienteInterface - Metodo refreshOnlines]Usuario : Fraude
+[13/06/2016 - 13:20:58][ClienteInterface - Metodo refreshOnlines]Usuarios : [Fraude]
+[13/06/2016 - 13:20:58][ClienteInterface - Metodo refreshOnlines]***FIM***
+[13/06/2016 - 13:21:03][ClienteInterface - Metodo btnEnviar[TpCrypt]]tpCrypt : 2
+[13/06/2016 - 13:21:03][ClienteInterface - Metodo btnEnviar[TpCrypt]]this.tpCrypt : 2
+[13/06/2016 - 13:21:03][ClienteInterface - Metodo btnEnviar][Fraude]isConnected : true
+[13/06/2016 - 13:21:03][ClienteInterface - Metodo criptografar] Texto : Oi
+[13/06/2016 - 13:21:03][ClienteInterface - Metodo criptografar[DES]][Fraude]Texto Claro : Oi
+[13/06/2016 - 13:21:03][ClienteInterface - Metodo criptografar[DES]][Fraude]ChavesDES : p2TfDv2GBLM=
+[DESPaddingECB]Texto Claro : Oi
+[DESPaddingECB]Texto Encriptado : [B@19b054c
+[13/06/2016 - 13:21:03][ClienteInterface - Metodo criptografar[DES]] aux : [B@19b054c
+|*******************************************|
+[13/06/2016 - 13:21:03][[btnEnviarActionPerformed]][ChaveDES] : p2TfDv2GBLM=
+[13/06/2016 - 13:21:03][[btnEnviarActionPerformed]]TextoDescriptografado : Oi
+[13/06/2016 - 13:21:03][[btnEnviarActionPerformed]]TextoClaro : Oi
+[13/06/2016 - 13:21:03][[btnEnviarActionPerformed]]Textocriptofrado : [B@19b054c
+|*******************************************|
+[13/06/2016 - 13:21:12][ClienteInterface - Metodo formWindowClosed]INICIO
+[13/06/2016 - 13:21:14][ClienteInterface - Metodo Disconnected[DES]]***Inicio****
+[13/06/2016 - 13:21:14][ClienteInterface - Metodo Disconnected[DES]][Fraude]Texto : [B@19b054c
+[13/06/2016 - 13:21:14][ClienteInterface - Metodo Disconnected[DES]][Fraude]***FIM***
+[13/06/2016 - 13:21:14][ClienteInterface - Metodo formWindowClosed][Desconectando]FIM disconnected

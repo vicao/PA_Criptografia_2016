@@ -1,0 +1,161 @@
+[13/06/2016 - 11:30:11][ClienteInterface - Metodo Connected]***Inicio****
+[13/06/2016 - 11:30:11][ClienteInterface - Metodo Connected][Lola]Chave DES gerada : javax.crypto.spec.SecretKeySpec@18488
+[13/06/2016 - 11:30:11][ClienteInterface - Metodo Connected][Lola]isIsGenaratedKey : false
+[13/06/2016 - 11:30:11][ClienteInterface - Metodo Connected][Lola][TpCrypt] 2
+[13/06/2016 - 11:30:11][ClienteInterface - Metodo Connected][Lola][TpCrypt] 2
+[13/06/2016 - 11:30:11][ClienteInterface - Metodo Connected][Chave DES] : javax.crypto.spec.SecretKeySpec@18488
+[13/06/2016 - 11:30:11][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[13/06/2016 - 11:30:11][ClienteInterface - Metodo refreshOnlines]Usuario : Mango
+[13/06/2016 - 11:30:11][ClienteInterface - Metodo refreshOnlines]Usuarios : [Mango, Lola, Kratos]
+[13/06/2016 - 11:30:11][ClienteInterface - Metodo refreshOnlines]***FIM***
+[13/06/2016 - 11:30:12][ClienteInterface - Metodo Connected][Lola]Você está conectado no chat!
+[13/06/2016 - 11:30:12][ClienteInterface - Metodo Connected]***FIM****
+[13/06/2016 - 11:30:12][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[13/06/2016 - 11:30:12][ClienteInterface - Metodo refreshOnlines]Usuario : Lola
+[13/06/2016 - 11:30:12][ClienteInterface - Metodo refreshOnlines]Usuarios : [Mango, Lola, Kratos]
+[13/06/2016 - 11:30:12][ClienteInterface - Metodo refreshOnlines]***FIM***
+[13/06/2016 - 11:30:19][ClienteInterface - Metodo btnEnviar[TpCrypt]]tpCrypt : 2
+[13/06/2016 - 11:30:19][ClienteInterface - Metodo btnEnviar[TpCrypt]]this.tpCrypt : 2
+[13/06/2016 - 11:30:19][ClienteInterface - Metodo btnEnviar][Lola]isConnected : true
+[13/06/2016 - 11:30:19][ClienteInterface - Metodo criptografar] Texto : oi
+[13/06/2016 - 11:30:19][ClienteInterface - Metodo criptografar[DES]][Lola]Texto Claro : oi
+[13/06/2016 - 11:30:19][ClienteInterface - Metodo criptografar[DES]][Lola]ChavesDES : THqool7+p14=
+[DESPaddingECB]Texto Claro : oi
+[DESPaddingECB]Texto Encriptado : [B@8a6bd4
+[13/06/2016 - 11:30:19][ClienteInterface - Metodo criptografar[DES]] aux : [B@8a6bd4
+|*******************************************|
+[13/06/2016 - 11:30:19][[btnEnviarActionPerformed]][ChaveDES] : THqool7+p14=
+[13/06/2016 - 11:30:19][[btnEnviarActionPerformed]]TextoDescriptografado : oi
+[13/06/2016 - 11:30:19][[btnEnviarActionPerformed]]TextoClaro : oi
+[13/06/2016 - 11:30:19][[btnEnviarActionPerformed]]Textocriptofrado : [B@8a6bd4
+|*******************************************|
+[13/06/2016 - 11:30:19][ClienteInterface - Metodo receive]****INICIO***
+[13/06/2016 - 11:30:19][ClienteInterface - Metodo receive][Lola][TpCrypt] 2
+[13/06/2016 - 11:30:19][ClienteInterface - Metodo ExibeMsg[DES]]Resultado : oi
+[13/06/2016 - 11:30:19][ClienteInterface - Metodo ExibeMsg[DES]]Resultado[toString] : oi
+[13/06/2016 - 11:30:19][ClienteInterface - Metodo receive]****FIM***
+[13/06/2016 - 11:30:27][ClienteInterface - Metodo receive]****INICIO***
+[13/06/2016 - 11:30:27][ClienteInterface - Metodo receive][Lola][TpCrypt] 2
+[13/06/2016 - 11:30:27][ClienteInterface - Metodo ExibeMsg[DES]]Resultado : oi
+[13/06/2016 - 11:30:27][ClienteInterface - Metodo ExibeMsg[DES]]Resultado[toString] : oi
+[13/06/2016 - 11:30:27][ClienteInterface - Metodo receive]****FIM***
+[13/06/2016 - 11:30:27][ClienteInterface - Metodo receive]****INICIO***
+[13/06/2016 - 11:30:27][ClienteInterface - Metodo receive][Lola][TpCrypt] 2
+[13/06/2016 - 11:30:27][ClienteInterface - Metodo ExibeMsg[DES]]Resultado : oi
+[13/06/2016 - 11:30:27][ClienteInterface - Metodo ExibeMsg[DES]]Resultado[toString] : oi
+[13/06/2016 - 11:30:27][ClienteInterface - Metodo receive]****FIM***
+[13/06/2016 - 11:30:34][ClienteInterface - Metodo receive]****INICIO***
+[13/06/2016 - 11:30:34][ClienteInterface - Metodo receive][Lola][TpCrypt] 2
+[13/06/2016 - 11:30:34][ClienteInterface - Metodo ExibeMsg[DES]]Resultado : oi
+[13/06/2016 - 11:30:34][ClienteInterface - Metodo ExibeMsg[DES]]Resultado[toString] : oi
+[13/06/2016 - 11:30:34][ClienteInterface - Metodo receive]****FIM***
+[13/06/2016 - 11:30:34][ClienteInterface - Metodo receive]****INICIO***
+[13/06/2016 - 11:30:34][ClienteInterface - Metodo receive][Lola][TpCrypt] 2
+[13/06/2016 - 11:30:34][ClienteInterface - Metodo ExibeMsg[DES]]Resultado : oi
+[13/06/2016 - 11:30:34][ClienteInterface - Metodo ExibeMsg[DES]]Resultado[toString] : oi
+[13/06/2016 - 11:30:34][ClienteInterface - Metodo receive]****FIM***
+[13/06/2016 - 11:30:40][ClienteInterface - Metodo btnEnviar[TpCrypt]]tpCrypt : 2
+[13/06/2016 - 11:30:40][ClienteInterface - Metodo btnEnviar[TpCrypt]]this.tpCrypt : 2
+[13/06/2016 - 11:30:40][ClienteInterface - Metodo btnEnviar][Lola]isConnected : true
+[13/06/2016 - 11:30:40][ClienteInterface - Metodo criptografar] Texto : h
+[13/06/2016 - 11:30:40][ClienteInterface - Metodo criptografar[DES]][Lola]Texto Claro : h
+[13/06/2016 - 11:30:40][ClienteInterface - Metodo criptografar[DES]][Lola]ChavesDES : THqool7+p14=
+[DESPaddingECB]Texto Claro : h
+[DESPaddingECB]Texto Encriptado : [B@1bea334
+[13/06/2016 - 11:30:40][ClienteInterface - Metodo criptografar[DES]] aux : [B@1bea334
+|*******************************************|
+[13/06/2016 - 11:30:40][[btnEnviarActionPerformed]][ChaveDES] : THqool7+p14=
+[13/06/2016 - 11:30:40][[btnEnviarActionPerformed]]TextoDescriptografado : h
+[13/06/2016 - 11:30:40][[btnEnviarActionPerformed]]TextoClaro : h
+[13/06/2016 - 11:30:40][[btnEnviarActionPerformed]]Textocriptofrado : [B@1bea334
+|*******************************************|
+[13/06/2016 - 11:30:40][ClienteInterface - Metodo receive]****INICIO***
+[13/06/2016 - 11:30:40][ClienteInterface - Metodo receive][Lola][TpCrypt] 2
+[13/06/2016 - 11:30:40][ClienteInterface - Metodo ExibeMsg[DES]]Resultado : h
+[13/06/2016 - 11:30:40][ClienteInterface - Metodo ExibeMsg[DES]]Resultado[toString] : h
+[13/06/2016 - 11:30:40][ClienteInterface - Metodo receive]****FIM***
+[13/06/2016 - 11:30:42][ClienteInterface - Metodo btnEnviar[TpCrypt]]tpCrypt : 2
+[13/06/2016 - 11:30:42][ClienteInterface - Metodo btnEnviar[TpCrypt]]this.tpCrypt : 2
+[13/06/2016 - 11:30:42][ClienteInterface - Metodo btnEnviar][Lola]isConnected : true
+[13/06/2016 - 11:30:42][ClienteInterface - Metodo criptografar] Texto : h
+[13/06/2016 - 11:30:42][ClienteInterface - Metodo criptografar[DES]][Lola]Texto Claro : h
+[13/06/2016 - 11:30:42][ClienteInterface - Metodo criptografar[DES]][Lola]ChavesDES : THqool7+p14=
+[DESPaddingECB]Texto Claro : h
+[DESPaddingECB]Texto Encriptado : [B@15fad11
+[13/06/2016 - 11:30:42][ClienteInterface - Metodo criptografar[DES]] aux : [B@15fad11
+|*******************************************|
+[13/06/2016 - 11:30:42][[btnEnviarActionPerformed]][ChaveDES] : THqool7+p14=
+[13/06/2016 - 11:30:42][[btnEnviarActionPerformed]]TextoDescriptografado : h
+[13/06/2016 - 11:30:42][[btnEnviarActionPerformed]]TextoClaro : h
+[13/06/2016 - 11:30:42][[btnEnviarActionPerformed]]Textocriptofrado : [B@15fad11
+|*******************************************|
+[13/06/2016 - 11:30:42][ClienteInterface - Metodo receive]****INICIO***
+[13/06/2016 - 11:30:42][ClienteInterface - Metodo receive][Lola][TpCrypt] 2
+[13/06/2016 - 11:30:42][ClienteInterface - Metodo ExibeMsg[DES]]Resultado : h
+[13/06/2016 - 11:30:42][ClienteInterface - Metodo ExibeMsg[DES]]Resultado[toString] : h
+[13/06/2016 - 11:30:42][ClienteInterface - Metodo receive]****FIM***
+[13/06/2016 - 11:30:43][ClienteInterface - Metodo btnEnviar[TpCrypt]]tpCrypt : 2
+[13/06/2016 - 11:30:43][ClienteInterface - Metodo btnEnviar[TpCrypt]]this.tpCrypt : 2
+[13/06/2016 - 11:30:43][ClienteInterface - Metodo btnEnviar][Lola]isConnected : true
+[13/06/2016 - 11:30:43][ClienteInterface - Metodo criptografar] Texto : h
+[13/06/2016 - 11:30:43][ClienteInterface - Metodo criptografar[DES]][Lola]Texto Claro : h
+[13/06/2016 - 11:30:43][ClienteInterface - Metodo criptografar[DES]][Lola]ChavesDES : THqool7+p14=
+[DESPaddingECB]Texto Claro : h
+[DESPaddingECB]Texto Encriptado : [B@f25c39
+[13/06/2016 - 11:30:43][ClienteInterface - Metodo criptografar[DES]] aux : [B@f25c39
+|*******************************************|
+[13/06/2016 - 11:30:43][[btnEnviarActionPerformed]][ChaveDES] : THqool7+p14=
+[13/06/2016 - 11:30:43][[btnEnviarActionPerformed]]TextoDescriptografado : h
+[13/06/2016 - 11:30:43][[btnEnviarActionPerformed]]TextoClaro : h
+[13/06/2016 - 11:30:43][[btnEnviarActionPerformed]]Textocriptofrado : [B@f25c39
+|*******************************************|
+[13/06/2016 - 11:30:43][ClienteInterface - Metodo receive]****INICIO***
+[13/06/2016 - 11:30:43][ClienteInterface - Metodo receive][Lola][TpCrypt] 2
+[13/06/2016 - 11:30:43][ClienteInterface - Metodo ExibeMsg[DES]]Resultado : h
+[13/06/2016 - 11:30:43][ClienteInterface - Metodo ExibeMsg[DES]]Resultado[toString] : h
+[13/06/2016 - 11:30:43][ClienteInterface - Metodo receive]****FIM***
+[13/06/2016 - 11:30:46][ClienteInterface - Metodo btnEnviar[TpCrypt]]tpCrypt : 2
+[13/06/2016 - 11:30:46][ClienteInterface - Metodo btnEnviar[TpCrypt]]this.tpCrypt : 2
+[13/06/2016 - 11:30:46][ClienteInterface - Metodo btnEnviar][Lola]isConnected : true
+[13/06/2016 - 11:30:46][ClienteInterface - Metodo criptografar] Texto : h
+[13/06/2016 - 11:30:46][ClienteInterface - Metodo criptografar[DES]][Lola]Texto Claro : h
+[13/06/2016 - 11:30:46][ClienteInterface - Metodo criptografar[DES]][Lola]ChavesDES : THqool7+p14=
+[DESPaddingECB]Texto Claro : h
+[DESPaddingECB]Texto Encriptado : [B@aabc6
+[13/06/2016 - 11:30:46][ClienteInterface - Metodo criptografar[DES]] aux : [B@aabc6
+|*******************************************|
+[13/06/2016 - 11:30:46][[btnEnviarActionPerformed]][ChaveDES] : THqool7+p14=
+[13/06/2016 - 11:30:46][[btnEnviarActionPerformed]]TextoDescriptografado : h
+[13/06/2016 - 11:30:46][[btnEnviarActionPerformed]]TextoClaro : h
+[13/06/2016 - 11:30:46][[btnEnviarActionPerformed]]Textocriptofrado : [B@aabc6
+|*******************************************|
+[13/06/2016 - 11:30:46][ClienteInterface - Metodo receive]****INICIO***
+[13/06/2016 - 11:30:46][ClienteInterface - Metodo receive][Lola][TpCrypt] 2
+[13/06/2016 - 11:30:46][ClienteInterface - Metodo ExibeMsg[DES]]Resultado : h
+[13/06/2016 - 11:30:46][ClienteInterface - Metodo ExibeMsg[DES]]Resultado[toString] : h
+[13/06/2016 - 11:30:46][ClienteInterface - Metodo receive]****FIM***
+[13/06/2016 - 11:30:50][ClienteInterface - Metodo btnEnviar[TpCrypt]]tpCrypt : 2
+[13/06/2016 - 11:30:50][ClienteInterface - Metodo btnEnviar[TpCrypt]]this.tpCrypt : 2
+[13/06/2016 - 11:30:50][ClienteInterface - Metodo btnEnviar][Lola]isConnected : true
+[13/06/2016 - 11:30:50][ClienteInterface - Metodo criptografar] Texto : h
+[13/06/2016 - 11:30:50][ClienteInterface - Metodo criptografar[DES]][Lola]Texto Claro : h
+[13/06/2016 - 11:30:50][ClienteInterface - Metodo criptografar[DES]][Lola]ChavesDES : THqool7+p14=
+[DESPaddingECB]Texto Claro : h
+[DESPaddingECB]Texto Encriptado : [B@19229a8
+[13/06/2016 - 11:30:50][ClienteInterface - Metodo criptografar[DES]] aux : [B@19229a8
+|*******************************************|
+[13/06/2016 - 11:30:50][[btnEnviarActionPerformed]][ChaveDES] : THqool7+p14=
+[13/06/2016 - 11:30:50][[btnEnviarActionPerformed]]TextoDescriptografado : h
+[13/06/2016 - 11:30:50][[btnEnviarActionPerformed]]TextoClaro : h
+[13/06/2016 - 11:30:50][[btnEnviarActionPerformed]]Textocriptofrado : [B@19229a8
+|*******************************************|
+[13/06/2016 - 11:30:50][ClienteInterface - Metodo receive]****INICIO***
+[13/06/2016 - 11:30:50][ClienteInterface - Metodo receive][Lola][TpCrypt] 2
+[13/06/2016 - 11:30:50][ClienteInterface - Metodo ExibeMsg[DES]]Resultado : h
+[13/06/2016 - 11:30:50][ClienteInterface - Metodo ExibeMsg[DES]]Resultado[toString] : h
+[13/06/2016 - 11:30:50][ClienteInterface - Metodo receive]****FIM***
+[13/06/2016 - 11:30:52][ClienteInterface - Metodo formWindowClosed]INICIO
+[13/06/2016 - 11:30:53][ClienteInterface - Metodo Disconnected[DES]]***Inicio****
+[13/06/2016 - 11:30:53][ClienteInterface - Metodo Disconnected[DES]][Lola]Texto : [B@19229a8
+[13/06/2016 - 11:30:53][ClienteInterface - Metodo Disconnected[DES]][Lola]***FIM***
+[13/06/2016 - 11:30:53][ClienteInterface - Metodo formWindowClosed][Desconectando]FIM disconnected

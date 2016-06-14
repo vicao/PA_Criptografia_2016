@@ -1,0 +1,17 @@
+[13/06/2016 - 13:24:27][ClienteInterface - Metodo Connected]***Inicio****
+[13/06/2016 - 13:24:27][ClienteInterface - Metodo Connected][kakak]Chave DES gerada : javax.crypto.spec.SecretKeySpec@184a0
+[13/06/2016 - 13:24:27][ClienteInterface - Metodo Connected][kakak]isIsGenaratedKey : true
+[13/06/2016 - 13:24:27][ClienteInterface - Metodo Connected][kakak][TpCrypt] 2
+[13/06/2016 - 13:24:27][ClienteInterface - Metodo Connected][kakak][TpCrypt] 2
+[13/06/2016 - 13:24:27][ClienteInterface - Metodo Connected][Chave DES] : javax.crypto.spec.SecretKeySpec@184a0
+[13/06/2016 - 13:24:29][ClienteInterface - Metodo Connected][kakak]Você está conectado no chat!
+[13/06/2016 - 13:24:29][ClienteInterface - Metodo Connected]***FIM****
+[13/06/2016 - 13:24:29][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[13/06/2016 - 13:24:29][ClienteInterface - Metodo refreshOnlines]Usuario : kakak
+[13/06/2016 - 13:24:29][ClienteInterface - Metodo refreshOnlines]Usuarios : [kakak]
+[13/06/2016 - 13:24:29][ClienteInterface - Metodo refreshOnlines]***FIM***
+[13/06/2016 - 13:24:49][ClienteInterface - Metodo formWindowClosed]INICIO
+[13/06/2016 - 13:24:50][ClienteInterface - Metodo Disconnected[DES]]***Inicio****
+[13/06/2016 - 13:24:50][ClienteInterface - Metodo Disconnected[DES]][kakak]Texto : null
+[13/06/2016 - 13:24:50][ClienteInterface - Metodo Disconnected[DES]][kakak]***FIM***
+[13/06/2016 - 13:24:50][ClienteInterface - Metodo formWindowClosed][Desconectando]FIM disconnected
