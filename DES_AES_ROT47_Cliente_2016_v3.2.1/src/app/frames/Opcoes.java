@@ -53,7 +53,7 @@ public class Opcoes extends javax.swing.JFrame {
         FieldChaveGeradaAESserver = new javax.swing.JTextField();
         jLabel7 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
+        FieldArqLog = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setResizable(false);
@@ -210,7 +210,7 @@ public class Opcoes extends javax.swing.JFrame {
 
         jLabel4.setText("Local Para Salvar Log :");
 
-        jTextField1.setEnabled(false);
+        FieldArqLog.setEnabled(false);
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -240,7 +240,7 @@ public class Opcoes extends javax.swing.JFrame {
                         .addContainerGap()
                         .addComponent(jLabel4)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 247, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(FieldArqLog, javax.swing.GroupLayout.PREFERRED_SIZE, 247, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
@@ -259,7 +259,7 @@ public class Opcoes extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 7, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel4)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(FieldArqLog, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap())
         );
 
@@ -438,6 +438,7 @@ public class Opcoes extends javax.swing.JFrame {
     private javax.swing.ButtonGroup ChaveDESGroup;
     private javax.swing.JCheckBox CheckChave;
     private javax.swing.JPanel DESPanel;
+    public javax.swing.JTextField FieldArqLog;
     public javax.swing.JTextField FieldChaveAESUser;
     public javax.swing.JTextField FieldChaveDESUser;
     public javax.swing.JTextField FieldChaveGeradaAESserver;
@@ -455,7 +456,6 @@ public class Opcoes extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel2;
     private javax.swing.JRadioButton jRadioButton1;
     private javax.swing.JRadioButton jRadioButton2;
-    private javax.swing.JTextField jTextField1;
     // End of variables declaration//GEN-END:variables
 
     public int RetornaTPCrypt() {

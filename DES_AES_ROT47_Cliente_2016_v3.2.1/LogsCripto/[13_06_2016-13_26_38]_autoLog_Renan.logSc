@@ -1,0 +1,61 @@
+[13/06/2016 - 13:26:54][ClienteInterface - Metodo Connected]***Inicio****
+[13/06/2016 - 13:26:54][ClienteInterface - Metodo Connected][Renan]Chave DES gerada : javax.crypto.spec.SecretKeySpec@184b3
+[13/06/2016 - 13:26:54][ClienteInterface - Metodo Connected][Renan]isIsGenaratedKey : true
+[13/06/2016 - 13:26:54][ClienteInterface - Metodo Connected][Renan][TpCrypt] 2
+[13/06/2016 - 13:26:54][ClienteInterface - Metodo Connected][Renan][TpCrypt] 2
+[13/06/2016 - 13:26:54][ClienteInterface - Metodo Connected][Chave DES] : javax.crypto.spec.SecretKeySpec@184b3
+[13/06/2016 - 13:26:56][ClienteInterface - Metodo Connected][Renan]Você está conectado no chat!
+[13/06/2016 - 13:26:56][ClienteInterface - Metodo Connected]***FIM****
+[13/06/2016 - 13:26:56][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[13/06/2016 - 13:26:56][ClienteInterface - Metodo refreshOnlines]Usuario : Renan
+[13/06/2016 - 13:26:56][ClienteInterface - Metodo refreshOnlines]Usuarios : [Renan]
+[13/06/2016 - 13:26:56][ClienteInterface - Metodo refreshOnlines]***FIM***
+[13/06/2016 - 13:28:13][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[13/06/2016 - 13:28:13][ClienteInterface - Metodo refreshOnlines]Usuario : Renan
+[13/06/2016 - 13:28:13][ClienteInterface - Metodo refreshOnlines]Usuarios : [mane, Renan]
+[13/06/2016 - 13:28:13][ClienteInterface - Metodo refreshOnlines]***FIM***
+[13/06/2016 - 13:32:29][ClienteInterface - Metodo btnEnviar[TpCrypt]]tpCrypt : 2
+[13/06/2016 - 13:32:29][ClienteInterface - Metodo btnEnviar[TpCrypt]]this.tpCrypt : 2
+[13/06/2016 - 13:32:29][ClienteInterface - Metodo btnEnviar][Renan]isConnected : true
+[13/06/2016 - 13:32:29][ClienteInterface - Metodo criptografar] Texto : Teste
+[13/06/2016 - 13:32:29][ClienteInterface - Metodo criptografar[DES]][Renan]Texto Claro : Teste
+[13/06/2016 - 13:32:29][ClienteInterface - Metodo criptografar[DES]][Renan]ChavesDES : 8n/+huZYJeo=
+[DESPaddingECB]Texto Claro : Teste
+[DESPaddingECB]Texto Encriptado : [B@5b191d
+[13/06/2016 - 13:32:29][ClienteInterface - Metodo criptografar[DES]] aux : [B@5b191d
+|*******************************************|
+[13/06/2016 - 13:32:29][[btnEnviarActionPerformed]][ChaveDES] : 8n/+huZYJeo=
+[13/06/2016 - 13:32:29][[btnEnviarActionPerformed]]TextoDescriptografado : Teste
+[13/06/2016 - 13:32:29][[btnEnviarActionPerformed]]TextoClaro : Teste
+[13/06/2016 - 13:32:29][[btnEnviarActionPerformed]]Textocriptofrado : [B@5b191d
+|*******************************************|
+[13/06/2016 - 13:32:43][ClienteInterface - Metodo receive]****INICIO***
+[13/06/2016 - 13:32:43][ClienteInterface - Metodo receive][Renan][TpCrypt] 2
+[13/06/2016 - 13:32:43][ClienteInterface - Metodo ExibeMsg[DES]]Resultado : Teste
+[13/06/2016 - 13:32:43][ClienteInterface - Metodo ExibeMsg[DES]]Resultado[toString] : Teste
+[13/06/2016 - 13:32:43][ClienteInterface - Metodo receive]****FIM***
+[13/06/2016 - 13:32:58][ClienteInterface - Metodo receive]****INICIO***
+[13/06/2016 - 13:32:58][ClienteInterface - Metodo receive][Renan][TpCrypt] 2
+[13/06/2016 - 13:32:58][ClienteInterface - Metodo ExibeMsg[DES]]Resultado : Teste
+[13/06/2016 - 13:32:58][ClienteInterface - Metodo ExibeMsg[DES]]Resultado[toString] : Teste
+[13/06/2016 - 13:32:58][ClienteInterface - Metodo receive]****FIM***
+[13/06/2016 - 13:33:58][ClienteInterface - Metodo btnEnviar[TpCrypt]]tpCrypt : 2
+[13/06/2016 - 13:33:58][ClienteInterface - Metodo btnEnviar[TpCrypt]]this.tpCrypt : 2
+[13/06/2016 - 13:33:58][ClienteInterface - Metodo btnEnviar][Renan]isConnected : true
+[13/06/2016 - 13:33:58][ClienteInterface - Metodo criptografar] Texto : e nois
+[13/06/2016 - 13:33:58][ClienteInterface - Metodo criptografar[DES]][Renan]Texto Claro : e nois
+[13/06/2016 - 13:33:58][ClienteInterface - Metodo criptografar[DES]][Renan]ChavesDES : 8n/+huZYJeo=
+[DESPaddingECB]Texto Claro : e nois
+[DESPaddingECB]Texto Encriptado : [B@1249e0b
+[13/06/2016 - 13:33:58][ClienteInterface - Metodo criptografar[DES]] aux : [B@1249e0b
+|*******************************************|
+[13/06/2016 - 13:33:58][[btnEnviarActionPerformed]][ChaveDES] : 8n/+huZYJeo=
+[13/06/2016 - 13:33:58][[btnEnviarActionPerformed]]TextoDescriptografado : e nois
+[13/06/2016 - 13:33:58][[btnEnviarActionPerformed]]TextoClaro : e nois
+[13/06/2016 - 13:33:58][[btnEnviarActionPerformed]]Textocriptofrado : [B@1249e0b
+|*******************************************|
+[13/06/2016 - 13:34:09][ClienteInterface - Metodo formWindowClosed]INICIO
+[13/06/2016 - 13:34:13][ClienteInterface - Metodo Disconnected[DES]]***Inicio****
+[13/06/2016 - 13:34:13][ClienteInterface - Metodo Disconnected[DES]][Renan]Texto : [B@1249e0b
+[13/06/2016 - 13:34:13][ClienteInterface - Metodo Disconnected[DES]][Renan]***FIM***
+[13/06/2016 - 13:34:13][ClienteInterface - Metodo formWindowClosed][Desconectando]FIM disconnected
