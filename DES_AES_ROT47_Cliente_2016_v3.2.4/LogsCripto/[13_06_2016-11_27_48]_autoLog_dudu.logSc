@@ -1,0 +1,28 @@
+[13/06/2016 - 11:28:24][ClienteInterface - Metodo Connected]***Inicio****
+[13/06/2016 - 11:28:24][ClienteInterface - Metodo Connected][dudu]Chave DES gerada : javax.crypto.spec.SecretKeySpec@18488
+[13/06/2016 - 11:28:24][ClienteInterface - Metodo Connected][dudu]isIsGenaratedKey : true
+[13/06/2016 - 11:28:24][ClienteInterface - Metodo Connected][dudu][TpCrypt] 2
+[13/06/2016 - 11:28:24][ClienteInterface - Metodo Connected][dudu][TpCrypt] 2
+[13/06/2016 - 11:28:24][ClienteInterface - Metodo Connected][Chave DES] : javax.crypto.spec.SecretKeySpec@18488
+[13/06/2016 - 11:28:26][ClienteInterface - Metodo Connected][dudu]Você está conectado no chat!
+[13/06/2016 - 11:28:26][ClienteInterface - Metodo Connected]***FIM****
+[13/06/2016 - 11:28:26][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[13/06/2016 - 11:28:26][ClienteInterface - Metodo refreshOnlines]Usuario : dudu
+[13/06/2016 - 11:28:26][ClienteInterface - Metodo refreshOnlines]Usuarios : [dudu]
+[13/06/2016 - 11:28:26][ClienteInterface - Metodo refreshOnlines]***FIM***
+[13/06/2016 - 11:28:40][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[13/06/2016 - 11:28:40][ClienteInterface - Metodo refreshOnlines]Usuario : dudu
+[13/06/2016 - 11:28:40][ClienteInterface - Metodo refreshOnlines]Usuarios : [Mango, dudu]
+[13/06/2016 - 11:28:40][ClienteInterface - Metodo refreshOnlines]***FIM***
+[13/06/2016 - 11:28:50][ClienteInterface - Metodo receive]****INICIO***
+[13/06/2016 - 11:28:50][ClienteInterface - Metodo receive][dudu][TpCrypt] 2
+[13/06/2016 - 11:27:48][DESPaddingECBDecrypter][Exception]descriptar : Null input buffer
+[13/06/2016 - 11:28:51][ClienteInterface - Metodo ExibeMsg[DES]]Resultado : 
+[13/06/2016 - 11:28:51][ClienteInterface - Metodo ExibeMsg[DES]]Resultado[toString] : 
+[13/06/2016 - 11:28:51][ClienteInterface - Metodo receive]****FIM***
+[13/06/2016 - 11:29:35][ClienteInterface - Metodo Disconnected[DES]]***Inicio****
+[13/06/2016 - 11:29:35][ClienteInterface - Metodo Disconnected[DES]][dudu]Texto : null
+[13/06/2016 - 11:29:35][ClienteInterface - Metodo Disconnected[DES]][dudu]***FIM***
+[antes do if]TpCrypt : 2
+[depois do If]TpCrypt : 2
+[this.message.getTpCrypt()]TpCrypt : 2

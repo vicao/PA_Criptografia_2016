@@ -1,0 +1,117 @@
+[14/06/2016 - 16:53:00][ClienteInterface - Metodo Connected]***Inicio****
+[14/06/2016 - 16:53:00][ClienteInterface - Metodo Connected][Ze]Chave DES gerada : javax.crypto.spec.SecretKeySpec@18603
+[14/06/2016 - 16:53:00][ClienteInterface - Metodo Connected][Ze]isIsGenaratedKey : true
+[14/06/2016 - 16:53:00][ClienteInterface - Metodo Connected][Ze][TpCrypt] 3
+[14/06/2016 - 16:53:00][ClienteInterface - Metodo Connected][Ze][TpCrypt] 3
+[14/06/2016 - 16:53:00][ClienteInterface - Metodo Connected][Chave DES-CBC] : null
+[14/06/2016 - 16:53:01][ClienteInterface - Metodo Connected][Ze]Você está conectado no chat!
+[14/06/2016 - 16:53:01][ClienteInterface - Metodo Connected]***FIM****
+[14/06/2016 - 16:53:01][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[14/06/2016 - 16:53:01][ClienteInterface - Metodo refreshOnlines]Usuario : Ze
+[14/06/2016 - 16:53:01][ClienteInterface - Metodo refreshOnlines]Usuarios : [Ze]
+[14/06/2016 - 16:53:01][ClienteInterface - Metodo refreshOnlines]***FIM***
+[14/06/2016 - 16:53:33][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[14/06/2016 - 16:53:33][ClienteInterface - Metodo refreshOnlines]Usuario : Ze
+[14/06/2016 - 16:53:33][ClienteInterface - Metodo refreshOnlines]Usuarios : [Kratos, Ze]
+[14/06/2016 - 16:53:33][ClienteInterface - Metodo refreshOnlines]***FIM***
+[14/06/2016 - 16:53:40][ClienteInterface - Metodo receive]****INICIO***
+[14/06/2016 - 16:53:40][ClienteInterface - Metodo receive][Ze][TpCrypt] 3
+[14_06_2016-16_45_33][ClienteInterface - Metodo ExibeMsg][Exception][DES CBC]descriptar : null
+[14/06/2016 - 16:53:40][ClienteInterface - Metodo ExibeMsg][Exception][DES CBC]descriptar : null
+[14/06/2016 - 16:53:40][ClienteInterface - Metodo receive]****FIM***
+[14/06/2016 - 16:54:02][ClienteInterface - Metodo btnEnviar[TpCrypt]]tpCrypt : 3
+[14/06/2016 - 16:54:02][ClienteInterface - Metodo btnEnviar[TpCrypt]]this.tpCrypt : 3
+[14/06/2016 - 16:54:02][ClienteInterface - Metodo btnEnviar][Ze]isConnected : true
+[14/06/2016 - 16:54:02][ClienteInterface - Metodo criptografar] Texto : tchau
+[14/06/2016 - 16:54:02][ClienteInterface - Metodo criptografar[DES]][Ze]Texto Claro : tchau
+Exception in thread "AWT-EventQueue-0" java.lang.NullPointerException
+	at app.frames.ClientInterface.criptografarDES(ClientInterface.java:312)
+	at app.frames.ClientInterface.btnEnviarActionPerformed(ClientInterface.java:632)
+	at app.frames.ClientInterface.access$700(ClientInterface.java:39)
+	at app.frames.ClientInterface$2.actionPerformed(ClientInterface.java:435)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2346)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6525)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6290)
+	at java.awt.Container.processEvent(Container.java:2234)
+	at java.awt.Component.dispatchEventImpl(Component.java:4881)
+	at java.awt.Container.dispatchEventImpl(Container.java:2292)
+	at java.awt.Component.dispatchEvent(Component.java:4703)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4898)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4533)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4462)
+	at java.awt.Container.dispatchEventImpl(Container.java:2278)
+	at java.awt.Window.dispatchEventImpl(Window.java:2739)
+	at java.awt.Component.dispatchEvent(Component.java:4703)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:746)
+	at java.awt.EventQueue.access$400(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:697)
+	at java.awt.EventQueue$3.run(EventQueue.java:691)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:719)
+	at java.awt.EventQueue$4.run(EventQueue.java:717)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:716)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+[14/06/2016 - 16:54:12][ClienteInterface - Metodo receive]****INICIO***
+[14/06/2016 - 16:54:12][ClienteInterface - Metodo receive][Ze][TpCrypt] 0
+[14/06/2016 - 16:54:12][ClienteInterface - Metodo ExibeMsg[noCrypt]][Ze]null
+[14/06/2016 - 16:54:12][ClienteInterface - Metodo receive]****FIM***
+[14/06/2016 - 16:54:12][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[14/06/2016 - 16:54:12][ClienteInterface - Metodo refreshOnlines]Usuario : Ze
+[14/06/2016 - 16:54:12][ClienteInterface - Metodo refreshOnlines]Usuarios : [Ze]
+[14/06/2016 - 16:54:12][ClienteInterface - Metodo refreshOnlines]***FIM***
+[14/06/2016 - 16:54:15][ClienteInterface - Metodo formWindowClosed]INICIO
+[14/06/2016 - 16:54:16][ClienteInterface - Metodo Disconnected[DES]]***Inicio****
+[14/06/2016 - 16:54:16][ClienteInterface - Metodo Disconnected[DES]][Ze]Texto Em Bytes: null
+jun 14, 2016 4:54:16 PM criptografia.EncriptaDecriptaDES_v3 decryptCBC
+GRAVE: null
+java.lang.NullPointerException
+	at criptografia.EncriptaDecriptaDES_v3.decryptCBC(EncriptaDecriptaDES_v3.java:142)
+	at app.frames.ClientInterface.disconnected(ClientInterface.java:228)
+	at app.frames.ClientInterface.formWindowClosing(ClientInterface.java:836)
+	at app.frames.ClientInterface.access$500(ClientInterface.java:39)
+	at app.frames.ClientInterface$1.windowClosing(ClientInterface.java:412)
+	at java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:349)
+	at java.awt.Window.processWindowEvent(Window.java:2058)
+	at javax.swing.JFrame.processWindowEvent(JFrame.java:297)
+	at java.awt.Window.processEvent(Window.java:2017)
+	at java.awt.Component.dispatchEventImpl(Component.java:4881)
+	at java.awt.Container.dispatchEventImpl(Container.java:2292)
+	at java.awt.Window.dispatchEventImpl(Window.java:2739)
+	at java.awt.Component.dispatchEvent(Component.java:4703)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:746)
+	at java.awt.EventQueue.access$400(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:697)
+	at java.awt.EventQueue$3.run(EventQueue.java:691)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:719)
+	at java.awt.EventQueue$4.run(EventQueue.java:717)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:716)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+
+
+[14/06/2016 - 16:54:16][ClienteInterface - Metodo Disconnected[DES]][Ze]Texto Descriptografado : null
+[14/06/2016 - 16:54:16][ClienteInterface - Metodo Disconnected[DES]][Ze]***FIM***
+[14/06/2016 - 16:54:16][ClienteInterface - Metodo formWindowClosed][Desconectando]FIM disconnected

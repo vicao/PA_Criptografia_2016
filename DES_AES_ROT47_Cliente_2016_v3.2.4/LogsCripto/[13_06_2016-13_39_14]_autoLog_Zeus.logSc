@@ -1,0 +1,32 @@
+[13/06/2016 - 13:40:06][ClienteInterface - Metodo Connected]***Inicio****
+[13/06/2016 - 13:40:06][ClienteInterface - Metodo Connected][Zeus]Chave DES gerada : javax.crypto.spec.SecretKeySpec@fffe79d9
+[13/06/2016 - 13:40:06][ClienteInterface - Metodo Connected][Zeus]isIsGenaratedKey : true
+[13/06/2016 - 13:40:06][ClienteInterface - Metodo Connected][Zeus][TpCrypt] 2
+[13/06/2016 - 13:40:06][ClienteInterface - Metodo Connected][Zeus][TpCrypt] 2
+[13/06/2016 - 13:40:06][ClienteInterface - Metodo Connected][Chave DES] : javax.crypto.spec.SecretKeySpec@fffe79d9
+[13/06/2016 - 13:40:07][ClienteInterface - Metodo Connected][Zeus]Você está conectado no chat!
+[13/06/2016 - 13:40:07][ClienteInterface - Metodo Connected]***FIM****
+[13/06/2016 - 13:40:07][ClienteInterface - Metodo refreshOnlines]***INICIO***
+[13/06/2016 - 13:40:07][ClienteInterface - Metodo refreshOnlines]Usuario : Zeus
+[13/06/2016 - 13:40:07][ClienteInterface - Metodo refreshOnlines]Usuarios : [Zeus]
+[13/06/2016 - 13:40:07][ClienteInterface - Metodo refreshOnlines]***FIM***
+[13/06/2016 - 13:40:13][ClienteInterface - Metodo btnEnviar[TpCrypt]]tpCrypt : 2
+[13/06/2016 - 13:40:13][ClienteInterface - Metodo btnEnviar[TpCrypt]]this.tpCrypt : 2
+[13/06/2016 - 13:40:13][ClienteInterface - Metodo btnEnviar][Zeus]isConnected : true
+[13/06/2016 - 13:40:13][ClienteInterface - Metodo criptografar] Texto : oi
+[13/06/2016 - 13:40:13][ClienteInterface - Metodo criptografar[DES]][Zeus]Texto Claro : oi
+[13/06/2016 - 13:40:13][ClienteInterface - Metodo criptografar[DES]][Zeus]ChavesDES : 6UBkDRrT/pc=
+[DESPaddingECB]Texto Claro : oi
+[DESPaddingECB]Texto Encriptado : [B@9da5b1
+[13/06/2016 - 13:40:13][ClienteInterface - Metodo criptografar[DES]] aux : [B@9da5b1
+|*******************************************|
+[13/06/2016 - 13:40:13][[btnEnviarActionPerformed]][ChaveDES] : 6UBkDRrT/pc=
+[13/06/2016 - 13:40:13][[btnEnviarActionPerformed]]TextoDescriptografado : oi
+[13/06/2016 - 13:40:13][[btnEnviarActionPerformed]]TextoClaro : oi
+[13/06/2016 - 13:40:13][[btnEnviarActionPerformed]]Textocriptofrado : [B@9da5b1
+|*******************************************|
+[13/06/2016 - 13:40:39][ClienteInterface - Metodo formWindowClosed]INICIO
+[13/06/2016 - 13:40:40][ClienteInterface - Metodo Disconnected[DES]]***Inicio****
+[13/06/2016 - 13:40:40][ClienteInterface - Metodo Disconnected[DES]][Zeus]Texto : [B@9da5b1
+[13/06/2016 - 13:40:40][ClienteInterface - Metodo Disconnected[DES]][Zeus]***FIM***
+[13/06/2016 - 13:40:40][ClienteInterface - Metodo formWindowClosed][Desconectando]FIM disconnected
